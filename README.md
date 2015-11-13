@@ -1,6 +1,6 @@
 # IMAC-Android-Skills-List
 
-### Base Sections
+### Tutorial Base Sections
 
 a) Development Environment
 
