@@ -10,6 +10,8 @@ c) The Simplest Sample
 
 d) Contributors
 
+e) Trouble Shooting
+
 ### Skills List
 
 |Skills|Description|Link|
