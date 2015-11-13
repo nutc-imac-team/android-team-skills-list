@@ -2,13 +2,13 @@
 
 ### Base Sections
 
-**a) Development Environment**
+a) Development Environment
 
-**b) Built Environment**
+b) Built Environment
 
-**c) The Simplest Sample**
+c) The Simplest Sample
 
-**d) Contributors**
+d) Contributors
 
 ### Skills List
 
