@@ -15,11 +15,11 @@
 
 |Skills|Description|Link|
 |---|---|---|
-|CardView|http://developer.android.com/reference/android/support/v7/widget/CardView.html|Tutorial|
-|RecyclerView|http://developer.android.com/reference/android/support/v7/widget/RecyclerView.html|Tutorial|
-|EventBus|https://github.com/greenrobot/EventBus|Tutorial|
-|Google Guava|https://code.google.com/p/guava-libraries/|Tutorial|
-|RxAndroid|https://github.com/ReactiveX/RxAndroid|Tutorial|
-|Log4j|http://logging.apache.org/log4j/2.x/|Tutorial|
-|Gson|https://github.com/google/gson|Tutorial|
-|AndAR|https://code.google.com/p/andar/|Tutorial|
+|CardView|[Introduce](http://developer.android.com/reference/android/support/v7/widget/CardView.html)|Tutorial|
+|RecyclerView|[Introduce](http://developer.android.com/reference/android/support/v7/widget/RecyclerView.html)|Tutorial|
+|EventBus|[Introduce](https://github.com/greenrobot/EventBus)|Tutorial|
+|Google Guava|[Introduce](https://code.google.com/p/guava-libraries/)|Tutorial|
+|RxAndroid|[Introduce](https://github.com/ReactiveX/RxAndroid)|Tutorial|
+|Log4j|[Introduce](http://logging.apache.org/log4j/2.x/)|Tutorial|
+|Gson|[Introduce](https://github.com/google/gson)|Tutorial|
+|AndAR|[Introduce](https://code.google.com/p/andar/)|Tutorial|
