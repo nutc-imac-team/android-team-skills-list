@@ -60,4 +60,13 @@ e) Troubleshooting
 |Android Test Kit|[Introduce](http://www.vogella.com/tutorials/AndroidTesting/article.html)|Tutorial|
 |Calabash Android |[Introduce](http://blog.teddyhyde.com/2013/11/04/a-better-way-to-test-android-applications-using-calabash/)|Tutorial|
 |Loaders|[Introduce](http://developer.android.com/guide/components/loaders.html)|Tutorial|
+|Orchestrate Video Recording|[Introduce](http://googlecloudplatform.blogspot.tw/2015/09/cloud-spin-part-2-building-mobile-apps-to-orchestrate-video-recording.html)|Tutorial|
+|Android* on Intel Platforms|[Introduce](https://01.org/zh/android-IA?langredirect=1)|Tutorial|
+|Speeding Up The Android Emulator|[Introduce](https://software.intel.com/sites/landingpage/tw/-on-intel-architecture.php)|Tutorial|
+|Facebook Infer|[Introduce](http://fbinfer.com/)|Tutorial|
+|Chrome For Android|[Introduce](http://www.chip123.com/portal.php?mod=view&aid=175)|Tutorial|
+|ProGuard|[Introduce](http://blog.csdn.net/fengyuzhengfan/article/details/43876197)|Tutorial|
+|Ansible|[Introduce](http://www.slideshare.net/williamyeh/ansible-top-down)|Tutorial|
+|Docker|[Introduce](https://philipzheng.gitbooks.io/docker_practice/content/introduction/index.html)|Tutorial|
+|Android Wear LTE Network|[Introduce](http://chinese.engadget.com/2015/11/12/android-wear-lte/?ncid=txtlnkusaolp00000595)|Tutorial|
 ||[Introduce]()|Tutorial|
