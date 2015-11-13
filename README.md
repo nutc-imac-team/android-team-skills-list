@@ -34,4 +34,7 @@ e) Troubleshooting
 |MonkeyRunner|[Introduce](http://developer.android.com/tools/help/monkeyrunner_concepts.html)|Tutorial|
 |Gson|[Introduce](https://github.com/google/gson)|Tutorial|
 |AndAR|[Introduce](https://code.google.com/p/andar/)|Tutorial|
+|https://github.com/roboguice/roboguice|[Introduce](https://github.com/roboguice/roboguice)|Tutorial|
+|Dragger|[Introduce](http://square.github.io/dagger/)|Tutorial|
+|Data Binding Guide|[Introduce](http://developer.android.com/tools/data-binding/guide.html)|Tutorial|
 ||[Introduce]()|Tutorial|
