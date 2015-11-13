@@ -1,4 +1,4 @@
-# IMAC-Android-Skill-List
+# IMAC-Android-Skills-List
 
 ### Base Sections
 
