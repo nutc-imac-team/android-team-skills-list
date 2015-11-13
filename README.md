@@ -2,11 +2,11 @@
 
 ### Base Sections
 
-**a) 開發環境**
+**a) Development Environment**
 
-**b) 建立環境**
+**b) Built Environment**
 
-**c) 最簡執行範例**
+**c) The Simplest Sample**
 
 **d) Contributors**
 
