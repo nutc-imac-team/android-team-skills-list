@@ -10,8 +10,6 @@
 
 **d) Contributors**
 
-------------------------------------------
-
 ### Skills List
 
 |Skills|Description|Link|
