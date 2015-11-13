@@ -38,4 +38,26 @@ e) Troubleshooting
 |Dragger|[Introduce](http://square.github.io/dagger/)|Tutorial|
 |Data Binding Guide|[Introduce](http://developer.android.com/tools/data-binding/guide.html)|Tutorial|
 |Retrolambda|[Introduce](https://github.com/evant/gradle-retrolambda)|Tutorial|
+|Build AOSP|[Introduce](https://source.android.com/)|Tutorial|
+|Android on Raspberry-pi|[Introduce](https://sites.google.com/site/raspberrypidiy/raspberry-pi/os/android)|Tutorial|
+|Brillo|[Introduce](https://developers.google.com/brillo/)|Tutorial|
+|Android Studio on Docker|[Introduce](http://www.infoq.com/cn/articles/talk-about-docker-running-the-chinese-gui-software)|Tutorial|
+|AOSP Ninja Build System|[Introduce](http://www.xda-developers.com/new-aosp-branch-details-potential-build-system-upgrades/)|Tutorial|
+|Android Bug Resport Server ACRA|[Introduce](http://www.acra.ch/)|Tutorial|
+|Renderers|[Introduce](https://github.com/pedrovgs/Renderers)|Tutorial|
+|Butterknife|[Introduce](https://github.com/JakeWharton/butterknife)|Tutorial|
+|DraggablePanel|[Introduce](https://github.com/pedrovgs/DraggablePanel)|Tutorial|
+|Picasso|[Introduce](https://github.com/square/picasso)|Tutorial|
+|Square|[Introduce](http://square.github.io/)|Tutorial|
+|RxJava|[Introduce](https://github.com/ReactiveX/RxJava)|Tutorial|
+|Mortar|[Introduce](https://github.com/square/mortar)|Tutorial|
+|Icepick|[Introduce](https://github.com/frankiesardo/icepick)|Tutorial|
+|Java Annotation Processor|[Introduce](http://blog.luoxq.com/?p=70)|Tutorial|
+|PinterestView|[Introduce](https://github.com/brucetoo/PinterestView)|Tutorial|
+|FabricView|[Introduce](https://github.com/antwankakki/FabricView)|Tutorial|
+|ExplosionField|[Introduce](https://github.com/tyrantgit/ExplosionField)|Tutorial|
+|React Native for Android|[Introduce](http://www.race604.com/rn-android-standalone-apk/)|Tutorial|
+|Android Test Kit|[Introduce](http://www.vogella.com/tutorials/AndroidTesting/article.html)|Tutorial|
+|Calabash Android |[Introduce](http://blog.teddyhyde.com/2013/11/04/a-better-way-to-test-android-applications-using-calabash/)|Tutorial|
+|Loaders|[Introduce](http://developer.android.com/guide/components/loaders.html)|Tutorial|
 ||[Introduce]()|Tutorial|
