@@ -1,7 +1,7 @@
 # IMAC-Android-Skills-List
 
-### Tutorial Base Sections
-
+## Tutorial Base Sections
+---------------------------------------------------------------
 a) Development Environment
 
 b) Built Environment
@@ -12,8 +12,16 @@ d) Contributors
 
 e) Troubleshooting
 
-### Skills List
+## Field Style
+---------------------------------------------------------------
+```text
+|Skills|Description|Tutorial|State|
+|---|---|---|---|
+||[Introduce]()|Link||
+```
 
+## Skills List
+---------------------------------------------------------------
 #### Components
 |Skills|Description|Tutorial|State|
 |---|---|---|---|
@@ -68,12 +76,12 @@ e) Troubleshooting
 |Android* on Intel Platforms|[Introduce](https://01.org/zh/android-IA?langredirect=1)|Link||
 |Speeding Up The Android Emulator|[Introduce](https://software.intel.com/sites/landingpage/tw/-on-intel-architecture.php)|Link||
 |Chrome For Android|[Introduce](http://www.chip123.com/portal.php?mod=view&aid=175)|Link||
+|Ninja|AOSP Build System<br>[Introduce](http://www.xda-developers.com/new-aosp-branch-details-potential-build-system-upgrades/)|Link||
 
 #### IDE
 |Skills|Description|Tutorial|State|
 |---|---|---|---|
 |Android Studio on Docker|[Introduce](http://www.infoq.com/cn/articles/talk-about-docker-running-the-chinese-gui-software)|Link||
-|Ninja|AOSP Build System<br>[Introduce](http://www.xda-developers.com/new-aosp-branch-details-potential-build-system-upgrades/)|Link||
 
 #### Java
 |Skills|Description|Tutorial|State|
@@ -121,7 +129,6 @@ e) Troubleshooting
 |Robolectric|[Introduce](http://robolectric.org/)|Link||
 |UltimateAndroid|[Introduce](https://github.com/cymcsg/UltimateAndroid#demo_of_ui)|Link||
 |FFmpeg|[Introduce](http://magiclen.org/android-ffmpeg/)|Link||
-||[Introduce]()|Link||
 
 #### Database
 |Skills|Description|Tutorial|State|
