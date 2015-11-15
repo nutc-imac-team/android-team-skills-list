@@ -1,7 +1,6 @@
 # IMAC-Android-Skills-List
 
 ## Tutorial Base Sections
----------------------------------------------------------------
 a) Development Environment
 
 b) Built Environment
@@ -13,7 +12,6 @@ d) Contributors
 e) Troubleshooting
 
 ## Field Style
----------------------------------------------------------------
 ```text
 |Skills|Description|Tutorial|State|
 |---|---|---|---|
@@ -21,7 +19,6 @@ e) Troubleshooting
 ```
 
 ## Skills List
----------------------------------------------------------------
 #### Components
 |Skills|Description|Tutorial|State|
 |---|---|---|---|
