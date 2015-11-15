@@ -17,7 +17,7 @@ e) Troubleshooting
 |Skills|Description|Tutorial|State|
 |---|---|---|---|
 |CardView|[Introduce](http://developer.android.com/reference/android/support/v7/widget/CardView.html)|Link||
-|RecyclerView|[Introduce](http://developer.android.com/reference/android/support/v7/widget/RecyclerView.html)|Tutorial||
+|RecyclerView|[Introduce](http://developer.android.com/reference/android/support/v7/widget/RecyclerView.html)|Link||
 |DrawLayout|[Introduce](http://developer.android.com/training/implementing-navigation/nav-drawer.html)|Link||
 |EventBus|[Introduce](https://github.com/greenrobot/EventBus)|Link||
 |Google Guava|[Introduce](https://code.google.com/p/guava-libraries/)|Link||
@@ -35,15 +35,14 @@ e) Troubleshooting
 |Gson|[Introduce](https://github.com/google/gson)|Link||
 |AndAR|[Introduce](https://code.google.com/p/andar/)|Link||
 |Roboguice|[Introduce](https://github.com/roboguice/roboguice)|Link||
-|Dragger|[Introduce](http://square.github.io/dagger/)|Link||
 |Data Binding Guide|[Introduce](http://developer.android.com/tools/data-binding/guide.html)|Link||
 |Retrolambda|[Introduce](https://github.com/evant/gradle-retrolambda)|Link||
 |Build AOSP|[Introduce](https://source.android.com/)|Link||
 |Android on Raspberry-pi|[Introduce](https://sites.google.com/site/raspberrypidiy/raspberry-pi/os/android)|Link||
 |Brillo|[Introduce](https://developers.google.com/brillo/)|Link||
 |Android Studio on Docker|[Introduce](http://www.infoq.com/cn/articles/talk-about-docker-running-the-chinese-gui-software)|Link||
-|AOSP Ninja Build System|[Introduce](http://www.xda-developers.com/new-aosp-branch-details-potential-build-system-upgrades/)|Link||
-|Android Bug Resport Server ACRA|[Introduce](http://www.acra.ch/)|Link||
+|Ninja|AOSP Build System<br>[Introduce](http://www.xda-developers.com/new-aosp-branch-details-potential-build-system-upgrades/)|Link||
+|ACRA|Android Bug Resport Server<br>[Introduce](http://www.acra.ch/)|Link||
 |Renderers|[Introduce](https://github.com/pedrovgs/Renderers)|Link||
 |Butterknife|[Introduce](https://github.com/JakeWharton/butterknife)|Link||
 |DraggablePanel|[Introduce](https://github.com/pedrovgs/DraggablePanel)|Link||
@@ -69,5 +68,20 @@ e) Troubleshooting
 |Ansible|[Introduce](http://www.slideshare.net/williamyeh/ansible-top-down)|Link||
 |Docker|[Introduce](https://philipzheng.gitbooks.io/docker_practice/content/introduction/index.html)|Link||
 |Android Wear LTE Network|[Introduce](http://chinese.engadget.com/2015/11/12/android-wear-lte/?ncid=txtlnkusaolp00000595)|Link||
+|Mockito|[Introduce](http://mockito.org/)|Link||
+|Instrumentation|[Introduce](http://developer.android.com/reference/android/app/Instrumentation.html)|Link||
+|Dragger|[Introduce](http://square.github.io/dagger/)|Link||
+|Dragger2|[Introduce](http://google.github.io/dagger/)|Link||
+|Mosby|[Introduce](https://github.com/sockeqwe/mosby)|Link||
+|Robolectric|[Introduce](http://robolectric.org/)|Link||
+|ActivityInstrumentationTestCase2|[Introduce](http://developer.android.com/reference/android/test/ActivityInstrumentationTestCase2.html)|Link||
+|ProviderTestCase|[Introduce](http://developer.android.com/reference/android/test/ProviderTestCase.html)|Link||
+|ServiceTestCase|[Introduce](http://developer.android.com/reference/android/test/ServiceTestCase.html)|Link||
+|SingleLaunchActivityTestCase|[Introduce](http://developer.android.com/reference/android/test/SingleLaunchActivityTestCase.html)|Link||
+|InstrumentationTestRunner|[Introduce](http://developer.android.com/reference/android/test/InstrumentationTestRunner.html)|Link||
+|RoboSpock|[Introduce](http://robospock.org/)|Link||
+|Selendroid|[Introduce](http://selendroid.io/)|Link||
+||[Introduce]()|Link||
+||[Introduce]()|Link||
 ||[Introduce]()|Link||
 ||[Introduce]()|Link||
