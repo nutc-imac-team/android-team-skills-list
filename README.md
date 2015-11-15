@@ -81,7 +81,10 @@ e) Troubleshooting
 |InstrumentationTestRunner|[Introduce](http://developer.android.com/reference/android/test/InstrumentationTestRunner.html)|Link||
 |RoboSpock|[Introduce](http://robospock.org/)|Link||
 |Selendroid|[Introduce](http://selendroid.io/)|Link||
-||[Introduce]()|Link||
-||[Introduce]()|Link||
-||[Introduce]()|Link||
+|UltimateAndroid|[Introduce](https://github.com/cymcsg/UltimateAndroid#demo_of_ui)|Link||
+|OpenFire|[Introduce](http://wiki.xby1993.net/doku.php?id=opensourcelearn:%E5%9F%BA%E4%BA%8Exmpp_openfire_smack%E7%9A%84im%E5%BC%80%E5%8F%91)|Link||
+|Smack|Open Source XMPP client library<br>[Introduce](http://stackoverflow.com/questions/4769020/android-and-xmpp-currently-available-solutions)|Link||
+|FFmpeg|[Introduce](http://magiclen.org/android-ffmpeg/)|Link||
+|WebRTC|[Introduce](http://www.webrtc.org/native-code/android)|Link||
+|GLSurfaceView|[Introduce](http://developer.android.com/reference/android/opengl/GLSurfaceView.html)|Link||
 ||[Introduce]()|Link||
