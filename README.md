@@ -83,7 +83,10 @@ e) Troubleshooting
 #### Java
 |Skills|Description|Tutorial|State|
 |---|---|---|---|
-|Java Annotation Processor|[Introduce](http://blog.luoxq.com/?p=70)|Link||
+|Java Annotation Processor|[Introduce](http://blog.luoxq.com/?p=70)|Link|
+|Future|[Introduce](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/Future.html)|Link
+|CompletableFuture|[Introduce](http://www.codedata.com.tw/java/jdk8-completablefuture/)|Link|
+|Monad Pattern|[Introduce](http://ingramchen.io/blog/2014/11/monad-design-pattern-in-java.html)|Link||
 
 #### Integration
 |Skills|Description|Tutorial|State|
