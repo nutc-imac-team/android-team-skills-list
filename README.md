@@ -122,16 +122,20 @@ e) Troubleshooting
 |Icepick|[Introduce](https://github.com/frankiesardo/icepick)|Link||
 |React Native|[Introduce](http://www.race604.com/rn-android-standalone-apk/)|Link||
 |Loaders|[Introduce](http://developer.android.com/guide/components/loaders.html)|Link||
-|Orchestrate Video Recording|[Introduce](http://googlecloudplatform.blogspot.tw/2015/09/cloud-spin-part-2-building-mobile-apps-to-orchestrate-video-recording.html)|Link||
 |Dragger|[Introduce](http://square.github.io/dagger/)|Link||
 |Dragger2|[Introduce](http://google.github.io/dagger/)|Link||
 |Mosby|[Introduce](https://github.com/sockeqwe/mosby)|Link||
 |Robolectric|[Introduce](http://robolectric.org/)|Link||
 |UltimateAndroid|[Introduce](https://github.com/cymcsg/UltimateAndroid#demo_of_ui)|Link||
-|FFmpeg|[Introduce](http://magiclen.org/android-ffmpeg/)|Link||
 
 #### Database
 |Skills|Description|Tutorial|State|
 |---|---|---|---|
 |SnappyDB|NoSQL<br>[Introduce](https://github.com/nhachicha/SnappyDB)|Link||
-|Realm|NoSQL<br>[Introduce](https://realm.io/)|Link||
+|Realm|NoSQL<br>[Introduce](https://realm.io/)|Link|
+
+#### Other
+|Skills|Description|Tutorial|State|
+|---|---|---|---|
+|Orchestrate Video Recording|[Introduce](http://googlecloudplatform.blogspot.tw/2015/09/cloud-spin-part-2-building-mobile-apps-to-orchestrate-video-recording.html)|Link||
+|FFmpeg|[Introduce](http://magiclen.org/android-ffmpeg/)|Link||
