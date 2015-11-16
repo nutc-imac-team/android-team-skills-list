@@ -62,7 +62,9 @@ e) Troubleshooting
 |OpenFire|[Introduce](http://wiki.xby1993.net/doku.php?id=opensourcelearn:%E5%9F%BA%E4%BA%8Exmpp_openfire_smack%E7%9A%84im%E5%BC%80%E5%8F%91)|Link||
 |Smack|Open Source XMPP client library<br>[Introduce](http://stackoverflow.com/questions/4769020/android-and-xmpp-currently-available-solutions)|Link||
 |WebRTC|[Introduce](http://www.webrtc.org/native-code/android)|Link||
-
+|Google Analytics|[Introduce](https://developers.google.com/analytics/devguides/collection/android/v4/)|Link||
+|GCM|[Introduce](https://developers.google.com/cloud-messaging/)|Link||
+|Crashlytics|[Introduce](http://try.crashlytics.com/sdk-android/)|Link||
 
 #### AOSP
 |Skills|Description|Tutorial|State|
@@ -100,6 +102,7 @@ e) Troubleshooting
 |---|---|---|---|
 |ProGuard|[Introduce](http://blog.csdn.net/fengyuzhengfan/article/details/43876197)|Link||
 |Android Wear LTE Network|[Introduce](http://chinese.engadget.com/2015/11/12/android-wear-lte/?ncid=txtlnkusaolp00000595)|Link||
+|Runtime Permission|[Introduce](http://stackoverflow.com/questions/30719047/android-m-check-runtime-permission-how-to-determine-if-the-user-checked-nev)|Link||
 
 #### Library
 |Skills|Description|Tutorial|State|
@@ -117,6 +120,8 @@ e) Troubleshooting
 |Butterknife|[Introduce](https://github.com/JakeWharton/butterknife)|Link||
 |Picasso|[Introduce](https://github.com/square/picasso)|Link||
 |Square|[Introduce](http://square.github.io/)|Link||
+|RxJava|[Introduce](https://github.com/ReactiveX/RxJava)|Link|
+|RxJava|[Introduce](https://github.com/ReactiveX/RxJava)|Link|
 |RxJava|[Introduce](https://github.com/ReactiveX/RxJava)|Link||
 |Mortar|[Introduce](https://github.com/square/mortar)|Link||
 |Icepick|[Introduce](https://github.com/frankiesardo/icepick)|Link||
@@ -127,12 +132,21 @@ e) Troubleshooting
 |Mosby|[Introduce](https://github.com/sockeqwe/mosby)|Link||
 |Robolectric|[Introduce](http://robolectric.org/)|Link||
 |UltimateAndroid|[Introduce](https://github.com/cymcsg/UltimateAndroid#demo_of_ui)|Link||
+|GreenDAO|[Introduce](https://github.com/greenrobot/greenDAO)|Link||
+|ORMLite|[Introduce](http://ormlite.com/sqlite_java_android_orm.shtml)|Link||
+|okHttp|[Introduce](http://square.github.io/okhttp/)|Link||
+|Retrofit|[Introduce](http://square.github.io/retrofit/)|Link||
+|Jackson|[Introduce](https://github.com/FasterXML/jackson)|Link||
+|Glide|[Introduce](https://github.com/bumptech/glide)|Link||
+|Universal-Image-Loader|[Introduce](https://github.com/nostra13/Android-Universal-Image-Loader)|Link||
+|MPAndroidChart|[Introduce](https://github.com/PhilJay/MPAndroidChart)|Link||
 
 #### Database
 |Skills|Description|Tutorial|State|
 |---|---|---|---|
 |SnappyDB|NoSQL<br>[Introduce](https://github.com/nhachicha/SnappyDB)|Link||
-|Realm|NoSQL<br>[Introduce](https://realm.io/)|Link|
+|Realm|NoSQL<br>[Introduce](https://realm.io/)|Link
+|Realm with RxJava|[Introduce](https://realm.io/news/using-realm-with-rxjava/)|Link|
 
 #### Other
 |Skills|Description|Tutorial|State|
