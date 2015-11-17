@@ -6,10 +6,13 @@
 
 #### Built Environment
 - 開啟 Android Srudio 
+
 - 建立新的 Module 叫做 app
+
 ![](./picture/Workspace 1_258.png)
 
 - 開啟 app Module 的 build.gradle，在 dependencies 區塊加入，例：
+
 ```gradle
 dependencies {
     // compile 代表會在應用程式執行階段，使用到這個函式庫。
