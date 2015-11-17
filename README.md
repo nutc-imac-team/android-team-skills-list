@@ -127,7 +127,7 @@ e) Troubleshooting
 |Icepick|[Introduce](https://github.com/frankiesardo/icepick)|Link||
 |React Native|[Introduce](http://www.race604.com/rn-android-standalone-apk/)|Link||
 |Loaders|[Introduce](http://developer.android.com/guide/components/loaders.html)|Link||
-|Dragger|[Introduce](http://square.github.io/dagger/)|[Link](https://github.com/nutc-imac-team/IMAC-Android-Team-Skills-List/blob/master/Dagger/main.md)|ChrisKe|
+|Dragger|Java 和 Android 使用Annotation和預編譯的依賴注入框架 。[Introduce](http://square.github.io/dagger/)|[Link](https://github.com/nutc-imac-team/IMAC-Android-Team-Skills-List/blob/master/Dagger/main.md)|ChrisKe|
 |Dragger2|[Introduce](http://google.github.io/dagger/)|Link||
 |Mosby|[Introduce](https://github.com/sockeqwe/mosby)|Link||
 |Robolectric|[Introduce](http://robolectric.org/)|Link||
