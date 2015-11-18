@@ -128,8 +128,7 @@ e) Troubleshooting
 |Picasso|[Introduce](https://github.com/square/picasso)|Link||
 |Square|[Introduce](http://square.github.io/)|Link||
 |RxJava|[Introduce](https://github.com/ReactiveX/RxJava)|Link|
-|RxJava|[Introduce](https://github.com/ReactiveX/RxJava)|Link|
-|RxJava|[Introduce](https://github.com/ReactiveX/RxJava)|Link||
+|RxAndroid|[Introduce](https://github.com/ReactiveX/RxJava)|Link|Ameng|
 |Mortar|[Introduce](https://github.com/square/mortar)|Link||
 |Icepick|[Introduce](https://github.com/frankiesardo/icepick)|Link||
 |React Native|[Introduce](http://www.race604.com/rn-android-standalone-apk/)|Link||
