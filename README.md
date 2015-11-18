@@ -90,6 +90,8 @@ e) Troubleshooting
 |Future|[Introduce](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/Future.html)|Link
 |CompletableFuture|[Introduce](http://www.codedata.com.tw/java/jdk8-completablefuture/)|Link|
 |Monad Pattern|[Introduce](http://ingramchen.io/blog/2014/11/monad-design-pattern-in-java.html)|Link||
+|Kotlin|[Introduce](http://www.infoq.com/cn/news/2015/06/Android-JVM-JetBrains-Kotlin)|Link||
+|TimerTask|[Introduce](http://www.openhome.cc/Gossip/JavaGossip-V2/TimerTaskAndTimer.htm)|Link||
 
 #### Integration
 |Skills|Description|Tutorial|State|
@@ -98,16 +100,20 @@ e) Troubleshooting
 |Docker|[Introduce](https://philipzheng.gitbooks.io/docker_practice/content/introduction/index.html)|Link||
 |Facebook Infer|[Introduce](http://fbinfer.com/)|Link||
 
-#### API
+#### Android API
 |Skills|Description|Tutorial|State|
 |---|---|---|---|
 |ProGuard|[Introduce](http://blog.csdn.net/fengyuzhengfan/article/details/43876197)|Link||
 |Android Wear LTE Network|[Introduce](http://chinese.engadget.com/2015/11/12/android-wear-lte/?ncid=txtlnkusaolp00000595)|Link||
 |Runtime Permission|[Introduce](http://stackoverflow.com/questions/30719047/android-m-check-runtime-permission-how-to-determine-if-the-user-checked-nev)|Link||
+|Handler|[Introduce](http://blog.csdn.net/fengyuzhengfan/article/details/43876197)|Link||
+|AsyncTask|[Introduce](http://developer.android.com/intl/zh-tw/reference/android/os/AsyncTask.html)|Link||
+|Lrucache|[Introduce](http://developer.android.com/intl/zh-tw/reference/android/util/LruCache.html)|Link||
 
 #### Library
 |Skills|Description|Tutorial|State|
 |---|---|---|---|
+|Volley|[Introduce](http://developer.android.com/intl/zh-tw/training/volley/index.html)|Link||
 |EventBus|[Introduce](https://github.com/greenrobot/EventBus)|Link||
 |Google Guava|[Introduce](https://code.google.com/p/guava-libraries/)|Link||
 |RxAndroid|[Introduce](https://github.com/ReactiveX/RxAndroid)|Link||
