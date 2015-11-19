@@ -146,6 +146,7 @@ e) Troubleshooting
 |Glide|[Introduce](https://github.com/bumptech/glide)|Link||
 |Universal-Image-Loader|[Introduce](https://github.com/nostra13/Android-Universal-Image-Loader)|Link||
 |MPAndroidChart|[Introduce](https://github.com/PhilJay/MPAndroidChart)|Link||
+|Socket.io-client-java|[Introduce](https://github.com/socketio/socket.io-client-java)|Link||
 
 #### Database
 |Skills|Description|Tutorial|State|
