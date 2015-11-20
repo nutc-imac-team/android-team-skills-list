@@ -30,6 +30,8 @@ e) Troubleshooting
 |FabricView|[Introduce](https://github.com/antwankakki/FabricView)|Link||
 |ExplosionField|[Introduce](https://github.com/tyrantgit/ExplosionField)|Link||
 |GLSurfaceView|[Introduce](http://developer.android.com/reference/android/opengl/GLSurfaceView.html)|Link||
+|FlycoTabLayout|[Introduce](https://github.com/H07000223/FlycoTabLayout)|Link||
+|Search-View-Layout|[Introduce](https://github.com/sahildave/Search-View-Layout)|Link||
 
 #### Testing
 |Skills|Description|Tutorial|State|
