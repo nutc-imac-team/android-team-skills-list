@@ -65,6 +65,7 @@ e) Troubleshooting
 |Google Analytics|[Introduce](https://developers.google.com/analytics/devguides/collection/android/v4/)|Link||
 |GCM|[Introduce](https://developers.google.com/cloud-messaging/)|Link||
 |Crashlytics|[Introduce](http://try.crashlytics.com/sdk-android/)|Link||
+|Googe App Stream|[Introduce](http://techcrunch.com/2015/11/18/google-search-now-surfaces-app-only-content-streams-apps-from-the-cloud-when-not-installed-on-your-phone/)|Link||
 
 #### AOSP
 |Skills|Description|Tutorial|State|
