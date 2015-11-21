@@ -54,6 +54,7 @@ e) Troubleshooting
 |InstrumentationTestRunner|[Introduce](http://developer.android.com/reference/android/test/InstrumentationTestRunner.html)|Link||
 |RoboSpock|[Introduce](http://robospock.org/)|Link||
 |Selendroid|[Introduce](http://selendroid.io/)|Link||
+|Monkop|[Introduce](https://www.monkop.com/)|Link||
 
 #### Service
 |Skills|Description|Tutorial|State|
@@ -112,6 +113,7 @@ e) Troubleshooting
 |Handler|[Introduce](http://blog.csdn.net/fengyuzhengfan/article/details/43876197)|Link||
 |AsyncTask|[Introduce](http://developer.android.com/intl/zh-tw/reference/android/os/AsyncTask.html)|Link||
 |Lrucache|[Introduce](http://developer.android.com/intl/zh-tw/reference/android/util/LruCache.html)|Link||
+|Android Accessibility|[Introduce](http://www.infoq.com/cn/articles/android-accessibility-installing)|Link||
 
 #### Library
 |Skills|Description|Tutorial|State|
@@ -158,8 +160,19 @@ e) Troubleshooting
 |Realm|NoSQL<br>[Introduce](https://realm.io/)|Link
 |Realm with RxJava|[Introduce](https://realm.io/news/using-realm-with-rxjava/)|Link|
 
+#### Project Manage
+|Skills|Description|Tutorial|State|
+|---|---|---|---|
+|Gitlab|[Introduce](https://www.gitlab.com/)|Link|
+|Gitorious|[Introduce](https://gitorious.org/gitorious/mainline)|Link|
+|ChiliProject|[Introduce](https://www.chiliproject.org/)|Link|
+|Apache Allura|[Introduce](http://allura.apache.org/)|Link|
+|Bitbucket|[Introduce](https://bitbucket.org/)|Link|
+|gogs|[Introduce](https://github.com/gogits/gogs)|Link|
+
 #### Other
 |Skills|Description|Tutorial|State|
 |---|---|---|---|
 |Orchestrate Video Recording|[Introduce](http://googlecloudplatform.blogspot.tw/2015/09/cloud-spin-part-2-building-mobile-apps-to-orchestrate-video-recording.html)|Link||
 |FFmpeg|[Introduce](http://magiclen.org/android-ffmpeg/)|Link||
+|Vysor|[Introduce](https://chrome.google.com/webstore/detail/vysor-beta/gidgenkbbabolejbgbpnhbimgjbffefm)|Link||
