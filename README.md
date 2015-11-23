@@ -24,7 +24,7 @@ e) Troubleshooting
 |---|---|---|---|
 |CardView|[Introduce](http://developer.android.com/reference/android/support/v7/widget/CardView.html)|Link|Home|
 |RecyclerView|[Introduce](http://developer.android.com/reference/android/support/v7/widget/RecyclerView.html)|Link||
-|DrawLayout|[Introduce](http://developer.android.com/training/implementing-navigation/nav-drawer.html)|Link||
+|DrawLayout|[Introduce](http://developer.android.com/training/implementing-navigation/nav-drawer.html)|Link|Max|
 |DraggablePanel|[Introduce](https://github.com/pedrovgs/DraggablePanel)|Link||
 |PinterestView|[Introduce](https://github.com/brucetoo/PinterestView)|Link||
 |FabricView|[Introduce](https://github.com/antwankakki/FabricView)|Link||
