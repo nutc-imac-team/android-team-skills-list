@@ -119,6 +119,7 @@ e) Troubleshooting
 |AsyncTask|[Introduce](http://developer.android.com/intl/zh-tw/reference/android/os/AsyncTask.html)|Link||
 |Lrucache|[Introduce](http://developer.android.com/intl/zh-tw/reference/android/util/LruCache.html)|Link||
 |Android Accessibility|[Introduce](http://www.infoq.com/cn/articles/android-accessibility-installing)|Link||
+|GPS LocationManager|[Introduce](http://www.moke.tw/wordpress/computer/advanced/279)|Link||
 
 #### Library
 |Skills|Description|Tutorial|State|
