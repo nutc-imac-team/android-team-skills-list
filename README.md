@@ -29,7 +29,7 @@ e) Troubleshooting
 |PinterestView|[Introduce](https://github.com/brucetoo/PinterestView)|Link||
 |FabricView|[Introduce](https://github.com/antwankakki/FabricView)|Link||
 |ExplosionField|[Introduce](https://github.com/tyrantgit/ExplosionField)|Link||
-|GLSurfaceView|[Introduce](http://developer.android.com/reference/android/opengl/GLSurfaceView.html)|Link||
+|GLSurfaceView|[Introduce](http://developer.android.com/reference/android/opengl/GLSurfaceView.html)|Link|Kevin Chen|
 |FlycoTabLayout|[Introduce](https://github.com/H07000223/FlycoTabLayout)|Link||
 |Search-View-Layout|[Introduce](https://github.com/sahildave/Search-View-Layout)|Link||
 
@@ -85,7 +85,7 @@ e) Troubleshooting
 #### Android NDK
 |Skills|Description|Tutorial|State|
 |---|---|---|---|
-|Hello World|[Introduce](http://developer.android.com/intl/zh-tw/tools/sdk/ndk/index.html)|Link||
+|Hello World|[Introduce](http://developer.android.com/intl/zh-tw/tools/sdk/ndk/index.html)|Link|Lyon Lin|
 
 #### IDE
 |Skills|Description|Tutorial|State|
@@ -119,7 +119,7 @@ e) Troubleshooting
 |AsyncTask|[Introduce](http://developer.android.com/intl/zh-tw/reference/android/os/AsyncTask.html)|Link||
 |Lrucache|[Introduce](http://developer.android.com/intl/zh-tw/reference/android/util/LruCache.html)|Link||
 |Android Accessibility|[Introduce](http://www.infoq.com/cn/articles/android-accessibility-installing)|Link||
-|GPS LocationManager|[Introduce](http://www.moke.tw/wordpress/computer/advanced/279)|Link||
+|GPS LocationManager|[Introduce](http://www.moke.tw/wordpress/computer/advanced/279)|Link|Lucas Chen|
 
 #### Library
 |Skills|Description|Tutorial|State|
