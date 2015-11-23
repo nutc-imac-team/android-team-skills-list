@@ -82,6 +82,11 @@ e) Troubleshooting
 |Ninja|AOSP Build System<br>[Introduce](http://www.xda-developers.com/new-aosp-branch-details-potential-build-system-upgrades/)|Link||
 |Remix Mini|[Introduce](http://www.ithome.com.tw/news/99975)|Link||
 
+#### Android NDK
+|Skills|Description|Tutorial|State|
+|---|---|---|---|
+|Hello World|[Introduce](http://developer.android.com/intl/zh-tw/tools/sdk/ndk/index.html)|Link||
+
 #### IDE
 |Skills|Description|Tutorial|State|
 |---|---|---|---|
