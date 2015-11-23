@@ -85,7 +85,7 @@ e) Troubleshooting
 #### Android NDK
 |Skills|Description|Tutorial|State|
 |---|---|---|---|
-|Hello World|[Introduce](http://developer.android.com/intl/zh-tw/tools/sdk/ndk/index.html)|Link|Lyon Lin|
+|NDK Hello World|[Introduce](http://developer.android.com/intl/zh-tw/tools/sdk/ndk/index.html)|Link|Lyon Lin|
 
 #### IDE
 |Skills|Description|Tutorial|State|
