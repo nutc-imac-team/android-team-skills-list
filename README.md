@@ -129,7 +129,7 @@ e) Troubleshooting
 |Google Guava|[Introduce](https://code.google.com/p/guava-libraries/)|Link||
 |RxAndroid|[Introduce](https://github.com/ReactiveX/RxAndroid)|Link||
 |Log4j|[Introduce](http://logging.apache.org/log4j/2.x/)|Link||
-|Gson|[Introduce](https://github.com/google/gson)|Link||
+|Gson|[Introduce](https://github.com/google/gson)|Link|Jerry|
 |AndAR|[Introduce](https://code.google.com/p/andar/)|Link||
 |Roboguice|[Introduce](https://github.com/roboguice/roboguice)|Link||
 |Data Binding Guide|[Introduce](http://developer.android.com/tools/data-binding/guide.html)|Link||
