@@ -187,3 +187,6 @@ e) Troubleshooting
 |FFmpeg|[Introduce](http://magiclen.org/android-ffmpeg/)|Link||
 |Vysor|[Introduce](https://chrome.google.com/webstore/detail/vysor-beta/gidgenkbbabolejbgbpnhbimgjbffefm)|Link||
 |lolcat|[Introduce](https://github.com/busyloop/lolcat)|Link||
+|Traceview|[Introduce](http://tools.android.com/tips/traceview)|Link||
+|Systrace|[Introduce](http://developer.android.com/tools/help/systrace.html)|Link||
+|bmgr|[Introduce](http://developer.android.com/tools/help/bmgr.html)|Link||
