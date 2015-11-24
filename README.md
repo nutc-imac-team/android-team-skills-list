@@ -173,12 +173,12 @@ e) Troubleshooting
 #### Project Manage
 |Skills|Description|Tutorial|State|
 |---|---|---|---|
-|Gitlab|[Introduce](https://www.gitlab.com/)|Link|
-|Gitorious|[Introduce](https://gitorious.org/gitorious/mainline)|Link|
-|ChiliProject|[Introduce](https://www.chiliproject.org/)|Link|
-|Apache Allura|[Introduce](http://allura.apache.org/)|Link|
-|Bitbucket|[Introduce](https://bitbucket.org/)|Link|
-|gogs|[Introduce](https://github.com/gogits/gogs)|Link|
+|Gitlab|[Introduce](https://www.gitlab.com/)|Link||
+|Gitorious|[Introduce](https://gitorious.org/gitorious/mainline)|Link||
+|ChiliProject|[Introduce](https://www.chiliproject.org/)|Link||
+|Apache Allura|[Introduce](http://allura.apache.org/)|Link||
+|Bitbucket|[Introduce](https://bitbucket.org/)|Link||
+|gogs|[Introduce](https://github.com/gogits/gogs)|Link|Ameng|
 
 #### Other
 |Skills|Description|Tutorial|State|
