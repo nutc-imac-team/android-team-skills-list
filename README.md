@@ -43,7 +43,7 @@ e) Troubleshooting
 |Espresso|[Introduce](http://developer.android.com/training/testing/ui-testing/espresso-testing.html)|Link||
 |Calabash|[Introduce](https://github.com/calabash/calabash-android)|Link||
 |Appium|[Introduce](http://appium.io/)|Link||
-|MonkeyRunner|[Introduce](http://developer.android.com/tools/help/monkeyrunner_concepts.html)|Link||
+|MonkeyRunner|[Introduce](http://developer.android.com/tools/help/monkeyrunner_concepts.html)|Link|ChrisKe|
 |Android Test Kit|[Introduce](http://www.vogella.com/tutorials/AndroidTesting/article.html)|Link||
 |Cucumber|[Introduce](https://github.com/cucumber/cucumber-jvm/tree/master/android)|Link||
 |Mockito|[Introduce](http://mockito.org/)|Link||
@@ -96,9 +96,9 @@ e) Troubleshooting
 #### Java
 |Skills|Description|Tutorial|State|
 |---|---|---|---|
-|Java Annotation Processor|[Introduce](http://blog.luoxq.com/?p=70)|Link|
-|Future|[Introduce](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/Future.html)|Link
-|CompletableFuture|[Introduce](http://www.codedata.com.tw/java/jdk8-completablefuture/)|Link|
+|Java Annotation Processor|[Introduce](http://blog.luoxq.com/?p=70)|Link|ChrisKe|
+|Future|[Introduce](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/Future.html)|Link||
+|CompletableFuture|[Introduce](http://www.codedata.com.tw/java/jdk8-completablefuture/)|Link||
 |Monad Pattern|[Introduce](http://ingramchen.io/blog/2014/11/monad-design-pattern-in-java.html)|Link||
 |Kotlin|[Introduce](http://www.infoq.com/cn/news/2015/06/Android-JVM-JetBrains-Kotlin)|Link||
 |TimerTask|[Introduce](http://www.openhome.cc/Gossip/JavaGossip-V2/TimerTaskAndTimer.htm)|Link||
