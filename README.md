@@ -32,6 +32,7 @@ e) Troubleshooting
 |GLSurfaceView|[Introduce](http://developer.android.com/reference/android/opengl/GLSurfaceView.html)|Link|Kevin Chen|
 |FlycoTabLayout|[Introduce](https://github.com/H07000223/FlycoTabLayout)|Link||
 |Search-View-Layout|[Introduce](https://github.com/sahildave/Search-View-Layout)|Link||
+|BadgedImageview|[Introduce](https://github.com/yesidlazaro/BadgedImageview)|Link||
 
 #### Testing
 |Skills|Description|Tutorial|State|
@@ -158,6 +159,9 @@ e) Troubleshooting
 |Universal-Image-Loader|[Introduce](https://github.com/nostra13/Android-Universal-Image-Loader)|Link||
 |MPAndroidChart|[Introduce](https://github.com/PhilJay/MPAndroidChart)|Link||
 |Socket.io-client-java|[Introduce](https://github.com/socketio/socket.io-client-java)|Link||
+|Drozer|[Introduce](https://github.com/mwrlabs/drozer)|Link||
+|Dexter|simplifies the process of requesting permissions at runtime.<br>[Introduce](https://github.com/Karumi/Dexter)|Link||
+|PermissionHelper|[Introduce](https://github.com/k0shk0sh/PermissionHelper)|Link||
 
 #### Database
 |Skills|Description|Tutorial|State|
@@ -182,3 +186,4 @@ e) Troubleshooting
 |Orchestrate Video Recording|[Introduce](http://googlecloudplatform.blogspot.tw/2015/09/cloud-spin-part-2-building-mobile-apps-to-orchestrate-video-recording.html)|Link||
 |FFmpeg|[Introduce](http://magiclen.org/android-ffmpeg/)|Link||
 |Vysor|[Introduce](https://chrome.google.com/webstore/detail/vysor-beta/gidgenkbbabolejbgbpnhbimgjbffefm)|Link||
+|lolcat|[Introduce](https://github.com/busyloop/lolcat)|Link||
