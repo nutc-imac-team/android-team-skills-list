@@ -191,3 +191,4 @@ e) Troubleshooting
 |Systrace|[Introduce](http://developer.android.com/tools/help/systrace.html)|Link||
 |bmgr|[Introduce](http://developer.android.com/tools/help/bmgr.html)|Link||
 |Xposed|[Introduce](http://mp.weixin.qq.com/s?__biz=MzA3Mjk1MjA4Nw==&mid=400390453&idx=1&sn=ad5e93193f46ba1bdccafda26508d702#rd)|Link||
+|leakcanary|[Introduce](https://github.com/square/leakcanary)|Link||
