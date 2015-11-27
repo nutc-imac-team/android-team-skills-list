@@ -2,39 +2,41 @@
 ***
 ### Development Environment
 * Android Studio 
+
 ### Built Environment
-* ¶}±Ò Android Srudio
-* «Ø¥ß·sªº project ¥s°µ Gson
+* é–‹å•Ÿ Android Srudio
+* å»ºç«‹æ–°çš„ project å«åš Gson
 
 ![](./picture/project.png)
 
-* ¶}±Ò Gson ªº build.gradle(Module:app)¡A¦b dependencies °Ï¶ô¥[¤J¡A¨Ò¡G
-```
+* é–‹å•Ÿ Gson çš„ build.gradle(Module:app)ï¼Œåœ¨ dependencies å€å¡ŠåŠ å…¥ï¼Œä¾‹ï¼š
+```java
  dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:22.2.0'
-    //compile ¥Nªí·|¦bÀ³¥Îµ{¦¡°õ¦æ¶¥¬q¡A¨Ï¥Î¨ì³o­Ó¨ç¦¡®w
-    //¥Ø«e³Ì·sª©¥»2.5
+    //compile ä»£è¡¨æœƒåœ¨æ‡‰ç”¨ç¨‹å¼åŸ·è¡Œéšæ®µï¼Œä½¿ç”¨åˆ°é€™å€‹å‡½å¼åº«
+    //ç›®å‰æœ€æ–°ç‰ˆæœ¬2.5
     compile 'com.google.code.gson:gson:2.5'
 }
 ```
 
 ### The Simplest Sample
-```public class MainActivity extends Activity {
+```java
+public class MainActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //«Ø¥ßClassmateª«¥ó
+        //å»ºç«‹Classmateç‰©ä»¶
         Classmate classmate = new Classmate("Jerry",20,"01-123456789");
-        //«Ø¥ßGsonª«¥ó
+        //å»ºç«‹Gsonç‰©ä»¶
         Gson gson = new Gson();
-        //±NClassmateª«¥óÂà´«¦¨Json
+        //å°‡Classmateç‰©ä»¶è½‰æ›æˆJson
         String Json = gson.toJson(classmate);
         System.out.println(Json);
 
-        //±NJsonÂà´«¦¨ª«¥ó
+        //å°‡Jsonè½‰æ›æˆç‰©ä»¶
         Classmate classmateJson =  gson.fromJson(Json,Classmate.class);
         System.out.println(classmateJson.getname());
         System.out.println(classmateJson.getage());
@@ -42,12 +44,12 @@
 
     }
 }
-//«Ø¥ß¦P¾Ç³q°T¿ıÃş§O
+//å»ºç«‹åŒå­¸é€šè¨ŠéŒ„é¡åˆ¥
 class Classmate {
     private String name;
     private int age;
     private String phone;
-//«Øºc¤l
+//å»ºæ§‹å­
     public Classmate(String name, int age, String phone) {
         this.name = name;
         this.age = age;
@@ -63,12 +65,10 @@ class Classmate {
 }
 ```
 ### Result
-```
+```java
  {"name":"Jerry","phone":"01-123456789","age":20}
-System.out¡R Jerry
-System.out¡R 20
-System.out¡R 01-123456789
+System.outï¹• Jerry
+System.outï¹• 20
+System.outï¹• 01-123456789
 ```
-
-
 
