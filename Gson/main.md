@@ -6,7 +6,7 @@
 * 開啟 Android Srudio
 * 建立新的 project 叫做 Gson
 
-![](./project.png)
+![](./picture/project.png)
 
 * 開啟 Gson 的 build.gradle(Module:app)，在 dependencies 區塊加入，例：
 ```
