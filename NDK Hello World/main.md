@@ -5,54 +5,47 @@
 - Android Studio 1.4
 
 #### Built Environment For Windows
-- NDK¤U¸ü¦a
+- NDKä¸‹è¼‰åœ°
 - http://developer.android.com/intl/zh-tw/ndk/downloads/index.html
-- ¥i¥Hcompiler cªºÀÉ®×
+- å¯ä»¥compiler cçš„æª”æ¡ˆ
 - http://www.cygwin.com/install.html
 
+- é–‹å•Ÿ Android Studio
 
-- ¶}±Ò Android Srudio
+- å»ºç«‹æ–°çš„ project å«åš ndktest
 
-- «Ø¥ß·sªº project ¥s°µ ndktest
-
-
-- ¦bProjectªºgradle.properties¤å¥ó¤¤¼W¥[¤@¦æ 
+- åœ¨Projectçš„gradle.propertiesæ–‡ä»¶ä¸­å¢åŠ ä¸€è¡Œ 
 ```properties     
         android.useDeprecatedNdk=true
 ```
 
-- ¦bProjectªºlocal.properties¤å¥ó¤¤¼W¥[¤@¦ændk©Ò¦b¥Ø¿ı ( ª`·N':'©M'\'­n¶i¦æÂàÃä )¡G
+- åœ¨Projectçš„local.propertiesæ–‡ä»¶ä¸­å¢åŠ ä¸€è¡Œndkæ‰€åœ¨ç›®éŒ„ ( æ³¨æ„':'å’Œ'\'è¦é€²è¡Œè½‰é‚Š )ï¼š
 ```properties
         ndk.dir=C\:\\Users\\Story\\AppData\\Local\\Android\\ndk
 ```
 
-- ¥´¶}¦b¤u¨ã¦CªºProject Structure 
-
+- æ‰“é–‹åœ¨å·¥å…·åˆ—çš„Project Structure 
 ![](./picture/workspace_1.png)
 
-- ­×§ïNDK location
-
+- ä¿®æ”¹NDK location
 ![](./picture/workspace_2.png)
-
-
-
 
 
 #### The Simplest Sample
 
-- ¦bmain©³¤U·s¼W¤@­Ójniªº¸ê®Æ§¨ (compile®É·|¦Û°Ê¶i¤J¦WºÙ¬°jniªº¸ê®Æ§¨)
+- åœ¨mainåº•ä¸‹æ–°å¢ä¸€å€‹jniçš„è³‡æ–™å¤¾ (compileæ™‚æœƒè‡ªå‹•é€²å…¥åç¨±ç‚ºjniçš„è³‡æ–™å¤¾)
 
 ![](./picture/workspace_3.png)
-- ¦b©³¤U³Ğ¤@­ÓC¤å¥ó¥H¤ÎmkÀÉ
+- åœ¨åº•ä¸‹å‰µä¸€å€‹Cæ–‡ä»¶ä»¥åŠmkæª”
 
-- C¤å¥óªº¼¶¼g
+- Cæ–‡ä»¶çš„æ’°å¯«
 
 ```C
 #include <string.h>
 #include <jni.h>
-/*Jstring ¬°ªğ¦^­È ,¤]¥i¥H¬° void , jint µ¥µ¥ Ãş«¬
- C¤å¥ó¤¤¤èªkªº©R¦W³W«h
- Java_Package¦W¤l_Activity¦W¤l_¤èªk¦W
+/*Jstring ç‚ºè¿”å›å€¼ ,ä¹Ÿå¯ä»¥ç‚º void , jint ç­‰ç­‰ é¡å‹
+ Cæ–‡ä»¶ä¸­æ–¹æ³•çš„å‘½åè¦å‰‡
+ Java_Packageåå­_Activityåå­_æ–¹æ³•å
  */
 jstring  Java_com_ndktest_MainActivity_stringFromJNI( JNIEnv* env, jobject thiz )
 {
@@ -60,28 +53,28 @@ jstring  Java_com_ndktest_MainActivity_stringFromJNI( JNIEnv* env, jobject thiz 
 }
 ```
 
-- mkÀÉªº¼¶¼g
+- mkæª”çš„æ’°å¯«
 
 ```mk
 #FileName:Android.mk
 #Description:makefile of Helloworld
-#Android.mk ¤å¥ó­º¥ı¥²¶·©w¸q¦nLOCAL_PATHÅÜ¶q¡Amy-dir¬O¥Î¨Óªğ¦^·í«e¸ô®|
+#Android.mk æ–‡ä»¶é¦–å…ˆå¿…é ˆå®šç¾©å¥½LOCAL_PATHè®Šé‡ï¼Œmy-diræ˜¯ç”¨ä¾†è¿”å›ç•¶å‰è·¯å¾‘
 LOCAL_PATH := $(call my-dir)
 
-#CLEAR_VARS¥Ñ½sÄ¶¨t²Î´£¨Ñ¡A«ü©wÅıGNU MAKEFILE¬°§A²M°£³\¦hLOCAL_XXXÅÜ¶q
+#CLEAR_VARSç”±ç·¨è­¯ç³»çµ±æä¾›ï¼ŒæŒ‡å®šè®“GNU MAKEFILEç‚ºä½ æ¸…é™¤è¨±å¤šLOCAL_XXXè®Šé‡
 include $(CLEAR_VARS)
 
-#¦WºÙ¥²¶·¬O°ß¤@ªº¡A¦Ó¥B¤£¥]§t¥ô¦óªÅ®æ
+#åç¨±å¿…é ˆæ˜¯å”¯ä¸€çš„ï¼Œè€Œä¸”ä¸åŒ…å«ä»»ä½•ç©ºæ ¼
 LOCAL_MODULE    := HelloWorld
 
-#¦C¥Xª½±µ¶Ç»¼¨ì½sÄ¶¾¹ªºc¤å¥ó
+#åˆ—å‡ºç›´æ¥å‚³éåˆ°ç·¨è­¯å™¨çš„cæ–‡ä»¶
 LOCAL_SRC_FILES := HelloWorld.c
 
-#BUILD_SHARED_LIBRARYªí¥Ü½sÄ¶¥Í¦¨¦@¨É®w¡A¬O½sÄ¶¨t²Î´£¨ÑªºÅÜ¶q
+#BUILD_SHARED_LIBRARYè¡¨ç¤ºç·¨è­¯ç”Ÿæˆå…±äº«åº«ï¼Œæ˜¯ç·¨è­¯ç³»çµ±æä¾›çš„è®Šé‡
 include $(BUILD_SHARED_LIBRARY)
 ```
 
-- ¶}±Ò app Module ªº build.gradle¡A¦b dependencies °Ï¶ô¥[¤J¡A¨Ò¡G
+- é–‹å•Ÿ app Module çš„ build.gradleï¼Œåœ¨ dependencies å€å¡ŠåŠ å…¥ï¼Œä¾‹ï¼š
 
 ```gradle
   defaultConfig {
@@ -90,7 +83,7 @@ include $(BUILD_SHARED_LIBRARY)
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
-        //»İ­n¿é¤Jndk module
+        //éœ€è¦è¼¸å…¥ndk module
         ndk {
             moduleName "HelloWorld"
         }
@@ -98,7 +91,7 @@ include $(BUILD_SHARED_LIBRARY)
 ```
 
 
-- MainActivityªº§ï¼g
+- MainActivityçš„æ”¹å¯«
 
 ```java
 package com.ndktest;
@@ -119,24 +112,24 @@ public class MainActivity extends Activity {
         setContentView(tv);
     }
 
-    //       «Å§i¤èªk
+    //       å®£å‘Šæ–¹æ³•
     public native String  stringFromJNI();
 
 
 
-    //  ÀRºA¸ü¤JSo®w
+    //  éœæ…‹è¼‰å…¥Soåº«
     static {
         System.loadLibrary("HelloWorld");
     }
 }
 
 ```
-- ¥´¶}cygwin¶i¤J±M®×mainªº¦ì¸m
-- ¨Ã¥´¤W§Aªºndk¸Ìªºndk-build
+- æ‰“é–‹cygwiné€²å…¥å°ˆæ¡ˆmainçš„ä½ç½®
+- ä¸¦æ‰“ä¸Šä½ çš„ndkè£¡çš„ndk-build
 
 ![](./picture/workspace_4.png)
 
-- °õ¦æAPPªºµ²ªG
+- åŸ·è¡ŒAPPçš„çµæœ
 
 ![](./picture/workspace_5.png)
 
