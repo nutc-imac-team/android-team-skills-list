@@ -28,11 +28,11 @@
 
 - 打開在工具列的Project Structure 
 
-![](./picture/Workspace_1.png)
+![](./picture/workspace_1.png)
 
 - 修改NDK location
 
-![](./picture/Workspace_2.png)
+![](./picture/workspace_2.png)
 
 
 
@@ -42,7 +42,7 @@
 
 - 在main底下新增一個jni的資料夾 (compile時會自動進入名稱為jni的資料夾)
 
-![](./picture/Workspace_3.png)
+![](./picture/workspace_3.png)
 - 在底下創一個C文件以及mk檔
 
 - C文件的撰寫
@@ -134,11 +134,11 @@ public class MainActivity extends Activity {
 - 打開cygwin進入專案main的位置
 - 並打上你的ndk裡的ndk-build
 
-![](./picture/Workspace_4.png)
+![](./picture/workspace_4.png)
 
 - 執行APP的結果
 
-![](./picture/Workspace_5.png)
+![](./picture/workspace_5.png)
 
 #### Contributors
 Lyon Lin
