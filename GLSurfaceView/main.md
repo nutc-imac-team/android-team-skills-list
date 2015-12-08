@@ -5,12 +5,12 @@
 - Android Studio 1.4
 
 #### Built Environment
-- ¶}±Ò Android Studio 
+- é–‹å•Ÿ Android Studio 
 
-- «Ø¥ß·sªº project ¥s°µ OpenGLSurfaceView
+- å»ºç«‹æ–°çš„ project å«åš OpenGLSurfaceView
 
 #### The Simplest Sample
-- ­×§ï MainActivity 
+- ä¿®æ”¹ MainActivity 
 ```JAVA
 public class MainActivity extends Activity {
 private GLSurfaceViewLayout glSurfaceView;
@@ -20,7 +20,7 @@ private GLSurfaceViewLayout glSurfaceView;
         super.onCreate(savedInstanceState);
         setContentView(glSurfaceView = new GLSurfaceView(this));
 
-        // ³]¸m GLSurfaceView 
+        // è¨­ç½® GLSurfaceView 
         glSurfaceView.setRenderer(new GLRenderer());
     }
 
@@ -37,17 +37,17 @@ private GLSurfaceViewLayout glSurfaceView;
     }
 }
 ```
-- ·s«Ø¤@­Ó Class ¥s°µ GLRenderer ¨Ã¥B¹ê§@ GLSurfaceView.Renderer ¤¶­±
+- æ–°å»ºä¸€å€‹ Class å«åš GLRenderer ä¸¦ä¸”å¯¦ä½œ GLSurfaceView.Renderer ä»‹é¢
 ```JAVA
 public class GLRenderer implements GLSurfaceView.Renderer {
-    // ³]©w³»ÂI buffer
+    // è¨­å®šé ‚é» buffer
     private FloatBuffer verticesBuffer;
-    // ³]©w¶¶§Ç buffer
+    // è¨­å®šé †åº buffer
     private ShortBuffer indexBuffer;
-    // ³]©w¨¤«×
+    // è¨­å®šè§’åº¦
     private float angle = 0f;
 
-    // ³»ÂI®y¼Ğ
+    // é ‚é»åº§æ¨™
     private float vertices[] = {
             -1.0f, -1.0f, -1.0f,  // 0
             1.0f, -1.0f, -1.0f,   // 1
@@ -58,7 +58,7 @@ public class GLRenderer implements GLSurfaceView.Renderer {
             1.0f, 1.0f, 1.0f,     // 6
             -1.0f, 1.0f, 1.0f,    // 7
     };
-    // ³»ÂI¯Á¤Ş
+    // é ‚é»ç´¢å¼•
     private short index[] = {
             0, 4, 5,
             0, 5, 1,
@@ -74,99 +74,99 @@ public class GLRenderer implements GLSurfaceView.Renderer {
             3, 1, 2,};
 
     @Override
-    // ¦¹¤èªk³]¸m¤@¨ÇÃ¸»s®É¤£±`§ïÅÜªº°Ñ¼Æ
+    // æ­¤æ–¹æ³•è¨­ç½®ä¸€äº›ç¹ªè£½æ™‚ä¸å¸¸æ”¹è®Šçš„åƒæ•¸
     public void onSurfaceCreated(GL10 gl, EGLConfig config) {
-        // ³]¸m­I´ºÃC¦â ( RGBA )
+        // è¨­ç½®èƒŒæ™¯é¡è‰² ( RGBA )
         gl.glClearColor(1.0f, 0.5f, 0.0f, 0.5f);
-        // ±Ò¥Î¥­·Æªº©³¯¾¡A¤£¤@©w»İ­n
+        // å•Ÿç”¨å¹³æ»‘çš„åº•ç´‹ï¼Œä¸ä¸€å®šéœ€è¦
         gl.glShadeModel(GL10.GL_SMOOTH);
-        // ³]©w²`¼h buffer
+        // è¨­å®šæ·±å±¤ buffer
         gl.glClearDepthf(1.0f);
-        // ±Ò¥Î²`¼h´ú¸Õ
+        // å•Ÿç”¨æ·±å±¤æ¸¬è©¦
         gl.glEnable(GL10.GL_DEPTH_TEST);
-        // °õ¦æ²`«×´ú¸ÕªºÃş«¬
+        // åŸ·è¡Œæ·±åº¦æ¸¬è©¦çš„é¡å‹
         gl.glDepthFunc(GL10.GL_LEQUAL);
-        // ³]©w³zµø­×¥¿
+        // è¨­å®šé€è¦–ä¿®æ­£
         gl.glHint(GL10.GL_PERSPECTIVE_CORRECTION_HINT, GL10.GL_NICEST);
     }
 
     @Override
-    // ·í¿Ã¹õ§ó´«Åã¥Ü¤è¦V®É°õ¦æ¦¹¤èªk
+    // ç•¶è¢å¹•æ›´æ›é¡¯ç¤ºæ–¹å‘æ™‚åŸ·è¡Œæ­¤æ–¹æ³•
     public void onSurfaceChanged(GL10 gl, int width, int height) {
-        // ³]©w·í«eªºµe­±®y¼Ğ
+        // è¨­å®šç•¶å‰çš„ç•«é¢åº§æ¨™
         gl.glViewport(0, 0, width, height);
-        // ³]¸m¬°§ë¼v¯x°}
+        // è¨­ç½®ç‚ºæŠ•å½±çŸ©é™£
         gl.glMatrixMode(GL10.GL_PROJECTION);
-        // ­pºâµe­±ªº¼e°ª¤ñ¡A¥H¤Î»·¤pªñ¤jªº¥ßÅé®ÄªG
+        // è¨ˆç®—ç•«é¢çš„å¯¬é«˜æ¯”ï¼Œä»¥åŠé å°è¿‘å¤§çš„ç«‹é«”æ•ˆæœ
         GLU.gluPerspective(
-                gl,                             // ¦³®Äªº GL10
-                65.0f,                          // µø¨¤
-                (float) width / (float) height, // ¤è¦V
-                0.1f,                           // ªñªº Z ¶b
-                100.0f);                        // »·ªº Z ¶b
-        // ³]¸m¬°¼Ò«¬µe­±¯x°}
+                gl,                             // æœ‰æ•ˆçš„ GL10
+                65.0f,                          // è¦–è§’
+                (float) width / (float) height, // æ–¹å‘
+                0.1f,                           // è¿‘çš„ Z è»¸
+                100.0f);                        // é çš„ Z è»¸
+        // è¨­ç½®ç‚ºæ¨¡å‹ç•«é¢çŸ©é™£
         gl.glMatrixMode(GL10.GL_MODELVIEW);
-        // ­«¸mµe­±¯x°}
+        // é‡ç½®ç•«é¢çŸ©é™£
         gl.glLoadIdentity();
     }
 
     @Override
-    // ©w¸q¹ê»ÚÃ¸¹Ïªº¾Ş§@
+    // å®šç¾©å¯¦éš›ç¹ªåœ–çš„æ“ä½œ
     public void onDrawFrame(GL10 gl) {
-        // ²M°£µe­±¥H¤Î²`¼h½w½Ä
+        // æ¸…é™¤ç•«é¢ä»¥åŠæ·±å±¤ç·©è¡
         gl.glClear(GL10.GL_COLOR_BUFFER_BIT | GL10.GL_DEPTH_BUFFER_BIT);
-        // ³]©w·í«eµe­±¯x°}¬°¼Ò«¬µe­±¯x°}
+        // è¨­å®šç•¶å‰ç•«é¢çŸ©é™£ç‚ºæ¨¡å‹ç•«é¢çŸ©é™£
         gl.glMatrixMode(GL10.GL_MODELVIEW);
-        // ­«¸mµe­±¯x°}
+        // é‡ç½®ç•«é¢çŸ©é™£
         gl.glLoadIdentity();
-        // ³]¸mµø¨¤ ( ³q±`¤£·|§ïÅÜ )
+        // è¨­ç½®è¦–è§’ ( é€šå¸¸ä¸æœƒæ”¹è®Š )
         GLU.gluLookAt(gl, 0, 0, 4, 0, 0, 0, 0, 1, 0);
-        // ³]©w Ã¸»s«e¦V­±ªº³»ÂI¶¶§Ç¬°°f®É°w¤è¦V
+        // è¨­å®š ç¹ªè£½å‰å‘é¢çš„é ‚é»é †åºç‚ºé€†æ™‚é‡æ–¹å‘
         gl.glFrontFace(GL10.GL_CCW);
-        // ±Ò¥Î©¿²¤­± ( FACE )
+        // å•Ÿç”¨å¿½ç•¥é¢ ( FACE )
         gl.glEnable(GL10.GL_CULL_FACE);
-        // «ü©w©¿²¤«á¦V­±
+        // æŒ‡å®šå¿½ç•¥å¾Œå‘é¢
         gl.glCullFace(GL10.GL_BACK);
-        // ±Ò¥Î³»ÂI buffer ªº¼g¤J¡A¥H¤Î­n¨Ï¥Îªº³Ù¬V¹Lµ{
+        // å•Ÿç”¨é ‚é» buffer çš„å¯«å…¥ï¼Œä»¥åŠè¦ä½¿ç”¨çš„å–§æŸ“éç¨‹
         gl.glEnableClientState(GL10.GL_VERTEX_ARRAY);
 
-        // ³]©wÃC¦â ( RGBA )
+        // è¨­å®šé¡è‰² ( RGBA )
         gl.glColor4f(1f, 1f, 0f, 0f);
 
-        // ±ÛÂà¥ß¤èÅé (¨¤«×, X, Y, Z)
+        // æ—‹è½‰ç«‹æ–¹é«” (è§’åº¦, X, Y, Z)
         gl.glRotatef(angle, 1.0f, 0.0f, 0.0f);
         gl.glRotatef(angle, 0.0f, 1.0f, 0.0f);
         gl.glRotatef(angle, 0.0f, 0.0f, 1.0f);
         angle++;
 
-        // ³]©w³»ÂI¥H¤Î¯Á¤Ş Buffer
+        // è¨­å®šé ‚é»ä»¥åŠç´¢å¼• Buffer
         setVerticesBuffer();
         setIndexBuffer();
 
-        // µe¥X¥ß¤èÅé
-        // «ü©w Ã¸»s®É¨Ï¥Î³»ÂI®y¼Ğªº¼Æ¾Ú®æ¦¡¥H¤Î¦ì¸m
+        // ç•«å‡ºç«‹æ–¹é«”
+        // æŒ‡å®š ç¹ªè£½æ™‚ä½¿ç”¨é ‚é»åº§æ¨™çš„æ•¸æ“šæ ¼å¼ä»¥åŠä½ç½®
         gl.glVertexPointer(
-                3,                          // ³»ÂI¼Æ¶q
-                GL10.GL_FLOAT,              // ³»ÂIÃş«¬
-                0,                          // °_©l¦ì¸m
-                verticesBuffer);            // ³»ÂI buffer
-        // ³z¹L¯Á¤Ş Buffer ¨ÓÃ¸»s­± ( ¤T¨¤­± )
+                3,                          // é ‚é»æ•¸é‡
+                GL10.GL_FLOAT,              // é ‚é»é¡å‹
+                0,                          // èµ·å§‹ä½ç½®
+                verticesBuffer);            // é ‚é» buffer
+        // é€éç´¢å¼• Buffer ä¾†ç¹ªè£½é¢ ( ä¸‰è§’é¢ )
         gl.glDrawElements(
-                GL10.GL_TRIANGLES,          // ¼Ò¦¡
-                index.length,               // ¶¶§Ç¼Æ¶q
-                GL10.GL_UNSIGNED_SHORT,     // ¶¶§Ç
-                indexBuffer);               // ¯Á¤Ş buffer
+                GL10.GL_TRIANGLES,          // æ¨¡å¼
+                index.length,               // é †åºæ•¸é‡
+                GL10.GL_UNSIGNED_SHORT,     // é †åº
+                indexBuffer);               // ç´¢å¼• buffer
 
 
-        // Ãö³¬³»ÂI buffer ªº¼g¤J
+        // é—œé–‰é ‚é» buffer çš„å¯«å…¥
         gl.glDisableClientState(GL10.GL_VERTEX_ARRAY);
-        // Ãö³¬©¿²¤­± ( FACE )
+        // é—œé–‰å¿½ç•¥é¢ ( FACE )
         gl.glDisable(GL10.GL_CULL_FACE);
     }
 
-    // ³]©w³»ÂI Buffer
+    // è¨­å®šé ‚é» Buffer
     protected void setVerticesBuffer() {
-        // ¬°¸`¬Ù®Ä¯à¡A¨Ï¥Î buffer ¦s¨ú
+        // ç‚ºç¯€çœæ•ˆèƒ½ï¼Œä½¿ç”¨ buffer å­˜å–
         ByteBuffer vbb = ByteBuffer.allocateDirect(vertices.length * 4);
         vbb.order(ByteOrder.nativeOrder());
         verticesBuffer = vbb.asFloatBuffer();
@@ -174,9 +174,9 @@ public class GLRenderer implements GLSurfaceView.Renderer {
         verticesBuffer.position(0);
     }
 
-    // ³]©w¯Á¤Ş Buffer
+    // è¨­å®šç´¢å¼• Buffer
     protected void setIndexBuffer() {
-        // ¬°¸`¬Ù®Ä¯à¡A¨Ï¥Î buffer ¦s¨ú
+        // ç‚ºç¯€çœæ•ˆèƒ½ï¼Œä½¿ç”¨ buffer å­˜å–
         ByteBuffer ibb = ByteBuffer.allocateDirect(index.length * 2);
         ibb.order(ByteOrder.nativeOrder());
         indexBuffer = ibb.asShortBuffer();
