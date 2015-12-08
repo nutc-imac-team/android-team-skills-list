@@ -110,10 +110,10 @@ public class MainActivity extends Activity {
         setContentView(tv);
     }
     
-    //       宣告方法
+    //宣告方法
     public native String  stringFromJNI();
 
-    //  靜態載入So庫
+    //靜態載入So庫
     static {
         System.loadLibrary("HelloWorld");
     }
