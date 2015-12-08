@@ -105,17 +105,13 @@ public class MainActivity extends Activity {
     public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-
-
         TextView tv = new TextView(this);
         tv.setText( stringFromJNI() );
         setContentView(tv);
     }
-
+    
     //       宣告方法
     public native String  stringFromJNI();
-
-
 
     //  靜態載入So庫
     static {
