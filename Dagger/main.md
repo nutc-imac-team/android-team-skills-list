@@ -5,7 +5,7 @@
 - Android Studio 1.3.2
 
 #### Built Environment
-- 開啟 Android Srudio 
+- 開啟 Android Studio
 
 - 建立新的 Module 叫做 app
 

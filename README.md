@@ -29,7 +29,7 @@ e) Troubleshooting
 |PinterestView|[Introduce](https://github.com/brucetoo/PinterestView)|Link||
 |FabricView|[Introduce](https://github.com/antwankakki/FabricView)|Link||
 |ExplosionField|[Introduce](https://github.com/tyrantgit/ExplosionField)|Link||
-|GLSurfaceView|[Introduce](http://developer.android.com/reference/android/opengl/GLSurfaceView.html)|Link|Kevin Chen|
+|GLSurfaceView|[Introduce](http://developer.android.com/reference/android/opengl/GLSurfaceView.html)|[Link](https://github.com/nutc-imac-team/IMAC-Android-Team-Skills-List/blob/master/GLSurfaceView/main.md)|Kevin Chen|
 |FlycoTabLayout|[Introduce](https://github.com/H07000223/FlycoTabLayout)|Link||
 |Search-View-Layout|[Introduce](https://github.com/sahildave/Search-View-Layout)|Link||
 |BadgedImageview|[Introduce](https://github.com/yesidlazaro/BadgedImageview)|Link||
@@ -56,6 +56,7 @@ e) Troubleshooting
 |RoboSpock|[Introduce](http://robospock.org/)|Link||
 |Selendroid|[Introduce](http://selendroid.io/)|Link||
 |Monkop|[Introduce](https://www.monkop.com/)|Link||
+|Lint|[Introduce](http://developer.android.com/intl/zh-tw/tools/help/lint.html)|Link|
 
 #### Service
 |Skills|Description|Tutorial|State|
@@ -70,6 +71,7 @@ e) Troubleshooting
 |GCM|[Introduce](https://developers.google.com/cloud-messaging/)|Link||
 |Crashlytics|[Introduce](http://try.crashlytics.com/sdk-android/)|Link||
 |Googe App Stream|[Introduce](http://techcrunch.com/2015/11/18/google-search-now-surfaces-app-only-content-streams-apps-from-the-cloud-when-not-installed-on-your-phone/)|Link||
+|CRaSH|[Introduce](http://www.crashub.org/)|Link||
 
 #### AOSP
 |Skills|Description|Tutorial|State|
@@ -130,7 +132,7 @@ e) Troubleshooting
 |Google Guava|[Introduce](https://code.google.com/p/guava-libraries/)|Link||
 |RxAndroid|[Introduce](https://github.com/ReactiveX/RxAndroid)|Link||
 |Log4j|[Introduce](http://logging.apache.org/log4j/2.x/)|Link||
-|Gson|[Introduce](https://github.com/google/gson)|Link|Jerry|
+|Gson|[Introduce](https://github.com/google/gson)|[Link](https://github.com/nutc-imac-team/IMAC-Android-Team-Skills-List/blob/master/Gson/main.md)|Jerry|
 |AndAR|[Introduce](https://code.google.com/p/andar/)|Link||
 |Roboguice|[Introduce](https://github.com/roboguice/roboguice)|Link||
 |Data Binding Guide|[Introduce](http://developer.android.com/tools/data-binding/guide.html)|Link||
@@ -145,8 +147,8 @@ e) Troubleshooting
 |Icepick|[Introduce](https://github.com/frankiesardo/icepick)|Link||
 |React Native|[Introduce](http://www.race604.com/rn-android-standalone-apk/)|Link||
 |Loaders|[Introduce](http://developer.android.com/guide/components/loaders.html)|Link||
-|Dragger|Java 和 Android 使用Annotation和預編譯的依賴注入框架 。<br>[Introduce](http://square.github.io/dagger/)|[Link](https://github.com/nutc-imac-team/IMAC-Android-Team-Skills-List/blob/master/Dagger/main.md)|ChrisKe|
-|Dragger2|[Introduce](http://google.github.io/dagger/)|Link||
+|Dagger|Java 和 Android 使用Annotation和預編譯的依賴注入框架 。<br>[Introduce](http://square.github.io/dagger/)|[Link](https://github.com/nutc-imac-team/IMAC-Android-Team-Skills-List/blob/master/Dagger/main.md)|ChrisKe|
+|Dagger2|[Introduce](http://google.github.io/dagger/)|Link||
 |Mosby|[Introduce](https://github.com/sockeqwe/mosby)|Link||
 |Robolectric|[Introduce](http://robolectric.org/)|Link||
 |UltimateAndroid|[Introduce](https://github.com/cymcsg/UltimateAndroid#demo_of_ui)|Link||
@@ -162,6 +164,8 @@ e) Troubleshooting
 |Drozer|[Introduce](https://github.com/mwrlabs/drozer)|Link||
 |Dexter|simplifies the process of requesting permissions at runtime.<br>[Introduce](https://github.com/Karumi/Dexter)|Link||
 |PermissionHelper|[Introduce](https://github.com/k0shk0sh/PermissionHelper)|Link||
+|Square Flow|[Introduce](https://github.com/square/flow)|Link||
+|Fresco|[Introduce](https://github.com/facebook/fresco)|Link||
 
 #### Database
 |Skills|Description|Tutorial|State|
@@ -191,3 +195,4 @@ e) Troubleshooting
 |Systrace|[Introduce](http://developer.android.com/tools/help/systrace.html)|Link||
 |bmgr|[Introduce](http://developer.android.com/tools/help/bmgr.html)|Link||
 |Xposed|[Introduce](http://mp.weixin.qq.com/s?__biz=MzA3Mjk1MjA4Nw==&mid=400390453&idx=1&sn=ad5e93193f46ba1bdccafda26508d702#rd)|Link||
+|leakcanary|[Introduce](https://github.com/square/leakcanary)|Link||
