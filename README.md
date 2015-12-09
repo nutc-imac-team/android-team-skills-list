@@ -93,7 +93,7 @@ e) Troubleshooting
 ### Design
 |Skills|Description|Tutorial|State|
 |---|---|---|---|
-|Evoluspencil|[Introduce](http://code.google.com/p/evoluspencil/)|Link|ChrisKe|
+|Evoluspencil On Ubuntu|[Introduce](http://code.google.com/p/evoluspencil/)|Link|ChrisKe|
 
 #### IDE
 |Skills|Description|Tutorial|State|
