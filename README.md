@@ -85,6 +85,7 @@ e) Troubleshooting
 |Ninja|AOSP Build System<br>[Introduce](http://www.xda-developers.com/new-aosp-branch-details-potential-build-system-upgrades/)|Link||
 |Remix Mini|[Introduce](http://www.ithome.com.tw/news/99975)|Link||
 |Intel HAXM Emulator|[Introduce](https://software.intel.com/sites/landingpage/tw/speeding-up-the-android-emulator-on-intel-architecture.php)|Link|FlowmaHuang|
+|Pine A64|[Introduce](http://www.techbang.com/posts/40247-less-than-500-yuan-64bit-pine-a64-mini-computers-can-run-android-51)|Link||
 
 #### Android NDK
 |Skills|Description|Tutorial|State|
