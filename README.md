@@ -24,7 +24,7 @@ e) Troubleshooting
 |---|---|---|---|
 |CardView|[Introduce](http://developer.android.com/reference/android/support/v7/widget/CardView.html)|Link|Home|
 |RecyclerView|[Introduce](http://developer.android.com/reference/android/support/v7/widget/RecyclerView.html)|Link||
-|DrawLayout|[Introduce](http://developer.android.com/training/implementing-navigation/nav-drawer.html)|Link|Max|
+|DrawLayout|[Introduce](http://developer.android.com/training/implementing-navigation/nav-drawer.html)|[Link](https://github.com/nutc-imac-team/IMAC-Android-Team-Skills-List/blob/master/DrawerLayout/main.md)|Max|
 |DraggablePanel|[Introduce](https://github.com/pedrovgs/DraggablePanel)|Link||
 |PinterestView|[Introduce](https://github.com/brucetoo/PinterestView)|Link||
 |FabricView|[Introduce](https://github.com/antwankakki/FabricView)|Link||
@@ -42,7 +42,7 @@ e) Troubleshooting
 |Uiautomator|[Introduce](http://developer.android.com/tools/testing-support-library/index.html)|Link||
 |Espresso|[Introduce](http://developer.android.com/training/testing/ui-testing/espresso-testing.html)|Link||
 |Calabash|[Introduce](https://github.com/calabash/calabash-android)|Link||
-|Appium|[Introduce](http://appium.io/)|Link||
+|Appium|[Introduce](http://appium.io/)|[Link](https://github.com/nutc-imac-team/IMAC-Android-Team-Skills-List/blob/master/Appium/main.md)|isa|
 |MonkeyRunner|[Introduce](http://developer.android.com/tools/help/monkeyrunner_concepts.html)|Link|ChrisKe|
 |Android Test Kit|[Introduce](http://www.vogella.com/tutorials/AndroidTesting/article.html)|Link||
 |Cucumber|[Introduce](https://github.com/cucumber/cucumber-jvm/tree/master/android)|Link||
@@ -76,7 +76,7 @@ e) Troubleshooting
 #### AOSP
 |Skills|Description|Tutorial|State|
 |---|---|---|---|
-|Build AOSP|[Introduce](https://source.android.com/)|Link|FlowmaHuang|
+|Build AOSP|[Introduce](https://source.android.com/)|[Link](https://github.com/nutc-imac-team/IMAC-Android-Team-Skills-List/blob/master/BuildAOSP/main.md)|FlowmaHuang|
 |Android on Raspberry-pi|[Introduce](https://sites.google.com/site/raspberrypidiy/raspberry-pi/os/android)|Link||
 |Brillo|[Introduce](https://developers.google.com/brillo/)|Link||
 |Android* on Intel Platforms|[Introduce](https://01.org/zh/android-IA?langredirect=1)|Link||
@@ -162,7 +162,7 @@ e) Troubleshooting
 |ORMLite|[Introduce](http://ormlite.com/sqlite_java_android_orm.shtml)|Link||
 |okHttp|[Introduce](http://square.github.io/okhttp/)|Link||
 |Retrofit|[Introduce](http://square.github.io/retrofit/)|Link||
-|Jackson|[Introduce](https://github.com/FasterXML/jackson)|Link||
+|Jackson|[Introduce](https://github.com/FasterXML/jackson)|[Link](https://github.com/nutc-imac-team/IMAC-Android-Team-Skills-List/blob/master/Jackson/main.md)|Jerry|
 |Glide|[Introduce](https://github.com/bumptech/glide)|Link||
 |Universal-Image-Loader|[Introduce](https://github.com/nostra13/Android-Universal-Image-Loader)|Link||
 |MPAndroidChart|[Introduce](https://github.com/PhilJay/MPAndroidChart)|Link||
