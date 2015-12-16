@@ -76,7 +76,7 @@ e) Troubleshooting
 #### AOSP
 |Skills|Description|Tutorial|State|
 |---|---|---|---|
-|Build AOSP|[Introduce](https://source.android.com/)|Link||
+|Build AOSP|[Introduce](https://source.android.com/)|Link|FlowmaHuang|
 |Android on Raspberry-pi|[Introduce](https://sites.google.com/site/raspberrypidiy/raspberry-pi/os/android)|Link||
 |Brillo|[Introduce](https://developers.google.com/brillo/)|Link||
 |Android* on Intel Platforms|[Introduce](https://01.org/zh/android-IA?langredirect=1)|Link||
@@ -84,6 +84,7 @@ e) Troubleshooting
 |Chrome For Android|[Introduce](http://www.chip123.com/portal.php?mod=view&aid=175)|Link||
 |Ninja|AOSP Build System<br>[Introduce](http://www.xda-developers.com/new-aosp-branch-details-potential-build-system-upgrades/)|Link||
 |Remix Mini|[Introduce](http://www.ithome.com.tw/news/99975)|Link||
+|Intel HAXM Emulator|[Introduce](http://www.ithome.com.tw/news/99975)|Link|FlowmaHuang|
 
 #### Android NDK
 |Skills|Description|Tutorial|State|
