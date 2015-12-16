@@ -84,7 +84,7 @@ e) Troubleshooting
 |Chrome For Android|[Introduce](http://www.chip123.com/portal.php?mod=view&aid=175)|Link||
 |Ninja|AOSP Build System<br>[Introduce](http://www.xda-developers.com/new-aosp-branch-details-potential-build-system-upgrades/)|Link||
 |Remix Mini|[Introduce](http://www.ithome.com.tw/news/99975)|Link||
-|Intel HAXM Emulator|[Introduce](http://www.ithome.com.tw/news/99975)|Link|FlowmaHuang|
+|Intel HAXM Emulator|[Introduce](https://software.intel.com/sites/landingpage/tw/speeding-up-the-android-emulator-on-intel-architecture.php)|Link|FlowmaHuang|
 
 #### Android NDK
 |Skills|Description|Tutorial|State|
