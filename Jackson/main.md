@@ -1,17 +1,18 @@
 # Jaskson
 ### Development Environment
   - Android Studio
+
 ### Built Environment
-  - 開啟 Android Srudio
-  - 建立新的 project 叫做 Gson
-  - 開啟 Gson 的 build.gradle(Module:app)，在 dependencies 區塊加入，例：
+  - 開啟 Android Studio
+  - 建立新的 project 叫做 Jaskson
+  - 開啟 Jaskson的 build.gradle(Module:app)，在 dependencies 區塊加入，例：
 ```java
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:22.2.0'
 
     //compile 代表會在應用程式執行階段，使用到這個函式庫
-    //目前最新版本2.5
+    //目前最新版本2.7
     compile 'com.fasterxml.jackson.core:jackson-annotations:2.7.0-rc1'
     compile 'com.fasterxml.jackson.core:jackson-core:2.7.0-rc1'
     compile 'com.fasterxml.jackson.core:jackson-databind:2.7.0-rc1'
