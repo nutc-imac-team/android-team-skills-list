@@ -1,29 +1,75 @@
-#DrawerLayout
+ï»¿#DrawerLayout
 
 #### Development Environment
 - Windows 7
 - Android Studio 1.3.1
 
 #### Built Environment
-- ¶}±Ò Android Studio
+- é–‹å•Ÿ Android Studio
 
-- «Ø¥ß·sªº App ¥s°µ DrawLayout
+- å»ºç«‹æ–°çš„ App å«åš DrawLayout
 
 ![](./picture/Workspace1_001.png)
 
-- ¶}±Ò DrawLayout Project ªº build.gradle¡A¦b dependencies °Ï¶ô¥[¤J¡A¨Ò¡G
+- é–‹å•Ÿ DrawLayout Project çš„ build.gradleï¼Œåœ¨ dependencies å€å¡ŠåŠ å…¥ï¼Œä¾‹ï¼š
 
 ```gradle
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    // compile ¥Nªí·|¦bÀ³¥Îµ{¦¡°õ¦æ¶¥¬q¡A¨Ï¥Î¨ì³o­Ó¨ç¦¡®w¡A³oÃä¨Ï¥Îappcompat-v7ªº23.0.1ª©¡C
+    // compile ä»£è¡¨æœƒåœ¨æ‡‰ç”¨ç¨‹å¼åŸ·è¡Œéšæ®µï¼Œä½¿ç”¨åˆ°é€™å€‹å‡½å¼åº«ï¼Œé€™é‚Šä½¿ç”¨appcompat-v7çš„23.0.1ç‰ˆã€‚
     compile 'com.android.support:appcompat-v7:23.0.1'
-    // compile ¥Nªí·|¦bÀ³¥Îµ{¦¡°õ¦æ¶¥¬q¡A¨Ï¥Î¨ì³o­Ó¨ç¦¡®w¡A³oÃä¨Ï¥Îsupport-v4ªº23.0.1ª©¡C
+    // compile ä»£è¡¨æœƒåœ¨æ‡‰ç”¨ç¨‹å¼åŸ·è¡Œéšæ®µï¼Œä½¿ç”¨åˆ°é€™å€‹å‡½å¼åº«ï¼Œé€™é‚Šä½¿ç”¨support-v4çš„23.0.1ç‰ˆã€‚
     compile 'com.android.support:support-v4:23.0.1'
 }
 ```
 
 #### The Simplest Sample
+- MainLayout
+```java
+public class MainLayout extends RelativeLayout{
+    private Ruler ruler;
+    public DrawerLayout drawerLayout;
+    public FrameLayout frameLayout;
+    public ListView listView;
+    public MainLayout(Context context) {
+        super(context);
+        ruler = new Ruler(getContext());
+        drawerLayout = drawerLayout();
+        frameLayout = frameLayout();
+        listView = listView();
+
+        this.addView(drawerLayout);
+        drawerLayout.addView(frameLayout);
+        drawerLayout.addView(listView);
+    }
+
+    private DrawerLayout drawerLayout() {
+        DrawerLayout.LayoutParams params = new DrawerLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
+
+        DrawerLayout v = new DrawerLayout(getContext());
+        v.setLayoutParams(params);
+        return v;
+    }
+
+    private FrameLayout frameLayout() {
+        LayoutParams params = new LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
+
+        FrameLayout v = new FrameLayout(getContext());
+        v.setLayoutParams(params);
+        return v;
+    }
+
+    private ListView listView() {
+        DrawerLayout.LayoutParams params = new DrawerLayout.LayoutParams(ruler.getW(60), LayoutParams.MATCH_PARENT, Gravity.LEFT);
+
+        ListView v = new ListView(getContext());
+        v.setBackgroundColor(Color.RED);
+        v.setLayoutParams(params);
+        return v;
+    }
+}
+```
+- Activity
 ```java
 public class MainActivity extends AppCompatActivity {
     private MainLayout layout;
@@ -38,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /***
-     * ¦bnavigation drawerµ²¦XActionBar¡AÅıActionBarªºªğ¦^½b¸¹Åã²{¡A¨Ã¥BÅı App icon ¥i¥H³QÂI¿ï¡C
+     * åœ¨navigation drawerçµåˆActionBarï¼Œè®“ActionBarçš„è¿”å›ç®­è™Ÿé¡¯ç¾ï¼Œä¸¦ä¸”è®“ App icon å¯ä»¥è¢«é»é¸ã€‚
      */
     private void initActionBar() {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -46,14 +92,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /***
-     * Åı°¼¿ï³æ¥X²{ªºªì©l¤Æ³]©w
+     * è®“å´é¸å–®å‡ºç¾çš„åˆå§‹åŒ–è¨­å®š
      */
     private void initDrawerLayout() {
         setContentView(layout = new MainLayout(this));
 
-        //«Ø¥ß°¼¿ï³æÄ²µo¾¹¡A¨ä¤¤·|±N°¼¿ï³æ¡B¶}±Ò©MÃö³¬«ü¥Oµ¥°Ñ¼Æ«ü©wµ¹ActionBarDrawerToggle(¨Ï¥Îappcompat-v7)
+        //å»ºç«‹å´é¸å–®è§¸ç™¼å™¨ï¼Œå…¶ä¸­æœƒå°‡å´é¸å–®ã€é–‹å•Ÿå’Œé—œé–‰æŒ‡ä»¤ç­‰åƒæ•¸æŒ‡å®šçµ¦ActionBarDrawerToggle(ä½¿ç”¨appcompat-v7)
         mDrawerToggle = new ActionBarDrawerToggle(this, layout.drawerLayout, R.string.drawer_open, R.string.drawer_close){
-            //¤U­±¬O¨â­ÓÂĞ¼g¤èªk¡A¤À§O¬O±Ò°¼¿ï³æ onDrawerOpened ¤ÎÃö³¬°¼¿ï³æ onDrawerClosed¡A¥i¥H¦A¶}±Ò©ÎÃö³¬·í¤¤«ü©w°Ê§@¡C
+            //ä¸‹é¢æ˜¯å…©å€‹è¦†å¯«æ–¹æ³•ï¼Œåˆ†åˆ¥æ˜¯å•Ÿå´é¸å–® onDrawerOpened åŠé—œé–‰å´é¸å–® onDrawerClosedï¼Œå¯ä»¥å†é–‹å•Ÿæˆ–é—œé–‰ç•¶ä¸­æŒ‡å®šå‹•ä½œã€‚
             @Override
             public void onDrawerClosed(View drawerView) {
                 super.onDrawerClosed(drawerView);
@@ -65,15 +111,15 @@ public class MainActivity extends AppCompatActivity {
             }
         };
 
-        //©I¥ssyncState(); Åı ActionBar ¤¤ªºªğ¦^½b¸¹¸m´«¦¨¤T±ø½u¹Ï¥Ü¡C
+        //å‘¼å«syncState(); è®“ ActionBar ä¸­çš„è¿”å›ç®­è™Ÿç½®æ›æˆä¸‰æ¢ç·šåœ–ç¤ºã€‚
         mDrawerToggle.syncState();
 
-        //ÅıdrawerLayout²âÅ¥³o­ÓÄ²µo¾¹
+        //è®“drawerLayoutè†è½é€™å€‹è§¸ç™¼å™¨
         layout.drawerLayout.setDrawerListener(mDrawerToggle);
     }
 
     /***
-     * ¦b°¼¿ï³æ¤¤¥HlistView¤è¦¡Åã¥Ü¡A¥Î¦r¦ê°}¦C«Ø¥ßadapter©ñ¨ìlistView¤¤
+     * åœ¨å´é¸å–®ä¸­ä»¥listViewæ–¹å¼é¡¯ç¤ºï¼Œç”¨å­—ä¸²é™£åˆ—å»ºç«‹adapteræ”¾åˆ°listViewä¸­
      */
     private void initDrawerList() {
         String[] drawArray = this.getResources().getStringArray(R.array.items_array);
@@ -82,7 +128,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /***
-     * Åıappicon¥i¥H°µ¶}Ãö¿ï³æªº°Ê§@
+     * è®“appiconå¯ä»¥åšé–‹é—œé¸å–®çš„å‹•ä½œ
      * @param item
      * @return
      */
@@ -103,7 +149,7 @@ public class MainActivity extends AppCompatActivity {
 MaxJiang
 
 #### Troubleshooting
-- ¦]¬°­n¨Ï¥Î°¼¿ï³æªº¸Ü¡ALayoutParams ­n¨Ï¥Î DrawLayout ±M¥Îªº¡A¦Ó¥B¦bÄİ©Ê¤è­±°£¤Fµ¹¤©¼e°ª¡AÁÙ¶·³]©w¿ï³æªì©l¤Æ¦ì¸m¡A¨Ò:
+- å› ç‚ºè¦ä½¿ç”¨å´é¸å–®çš„è©±ï¼ŒLayoutParams è¦ä½¿ç”¨ DrawLayout å°ˆç”¨çš„ï¼Œè€Œä¸”åœ¨å±¬æ€§æ–¹é¢é™¤äº†çµ¦äºˆå¯¬é«˜ï¼Œé‚„é ˆè¨­å®šé¸å–®åˆå§‹åŒ–ä½ç½®ï¼Œä¾‹:
 ```java
     private ListView listView() {
         DrawerLayout.LayoutParams params = new DrawerLayout.LayoutParams(ruler.getW(60), LayoutParams.MATCH_PARENT, Gravity.LEFT);
