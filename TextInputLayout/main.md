@@ -262,6 +262,7 @@ app:errorTextAppearance="@style/input_text_error_style"
 
 
 使用EditText
+
 ![](./picture/10.png)
 #### Contributors
 Che Jung
