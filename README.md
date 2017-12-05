@@ -33,6 +33,8 @@ e) Troubleshooting
 |FlycoTabLayout|[Introduce](https://github.com/H07000223/FlycoTabLayout)|Link||
 |Search-View-Layout|[Introduce](https://github.com/sahildave/Search-View-Layout)|Link||
 |BadgedImageview|[Introduce](https://github.com/yesidlazaro/BadgedImageview)|Link||
+|ConstraintLayout|[Introduce](https://developer.android.com/reference/android/support/constraint/ConstraintLayout.html)|[Link](https://github.com/nutc-imac-team/android-team-skills-list/blob/master/ConstraintLayout/main.md)||
+|TextInputLayout|[Introduce](https://developer.android.com/reference/android/support/design/widget/TextInputLayout.html)|[Link](https://github.com/nutc-imac-team/android-team-skills-list/blob/master/TextInputLayout/main.md)||
 
 #### Testing
 |Skills|Description|Tutorial|State|
@@ -96,6 +98,7 @@ e) Troubleshooting
 |Skills|Description|Tutorial|State|
 |---|---|---|---|
 |Evoluspencil On Ubuntu|[Introduce](http://code.google.com/p/evoluspencil/)|Link|ChrisKe|
+|Instant Apps|[Introduce](https://developer.android.com/topic/instant-apps/index.html)|[Link](https://github.com/nutc-imac-team/android-team-skills-list/blob/master/InstantApp/main.md)||
 
 #### IDE
 |Skills|Description|Tutorial|State|
