@@ -17,13 +17,14 @@
 
 - 安裝 "Instant Apps Development SDK"
 
-![](https://i.imgur.com/ynGezoH.jpg)
+![](./picture/2.jpg)
 
 
 ### 將 Project 的 Module type 從 Application 轉成 feature
 
 - 在左列的 app 上右鍵，重新命名為 "base-feature"
- ![](https://i.imgur.com/eED4d5L.jpg)
+
+![](./picture/3.jpg)
 
 - 修改 base-feature/build.gradle 
 
@@ -57,33 +58,41 @@ android {
 
 ### 定義 App Links
 - 選擇 Tools > App Links Assistant 
- ![](https://i.imgur.com/l3OpuaK.jpg)
+
+![](./picture/4.jpg)
 
 - 點選"Open URL Mapping Editor 並新增鏈結
-![](https://i.imgur.com/airPS3c.jpg)
+
+![](./picture/5.jpg)
 
 - Host: http://test
 
 - Path: /main 
 
 - Activity: .MainActivity
-![](https://i.imgur.com/7MCunnY.jpg)
+
+![](./picture/6.jpg)
 
 ### 建立  APK file
 
 - 選擇 File->New Module
-- ![](https://i.imgur.com/hmE1rrq.jpg)
+
+![](./picture/7.jpg)
 - 選擇 "Phone & Tablet Module"
-- ![](https://i.imgur.com/gaNq3kt.jpg)
+
+![](./picture/8.jpg)
 - 修改名稱為 "App"，並將 Package name 修改為 "App"
-![](https://i.imgur.com/LvT6dkq.jpg)
+
+![](./picture/9.jpg)
 - 選擇 "Add No Activity"，並 finish
 
 - 將檢視模式從 Android 改為 Project
-![](https://i.imgur.com/wokwtQe.jpg)
+
+![](./picture/10.jpg)
 
 - 刪除多餘的檔案
-![](https://i.imgur.com/YJe8Dgp.jpg)
+
+![](./picture/11.jpg)
 
 - 將檢視模式改回 Android
 - 修改 app/build.gradle 
@@ -108,7 +117,8 @@ dependencies {
 - Sync Project
 
 - 選擇 app 並測試是否正常
-- ![](https://i.imgur.com/LDVqm9A.jpg)
+
+![](./picture/12.jpg)
 
 - 測試完成後 刪除此應用程式 (InstantApp)
 
@@ -116,10 +126,12 @@ dependencies {
 ### 製作 Instant App module
 
 - 右鍵 InstantApp，新增module
-![](https://i.imgur.com/DY21v2t.jpg)
+
+![](./picture/13.jpg)
 
 - 選擇 "Instant App"
-![](https://i.imgur.com/ShmtNH1.jpg)
+
+![](./picture/14.jpg)
 - 並 Next > Finish
 
 
@@ -132,22 +144,27 @@ dependencies {
 - Sync Project
 
 - 選擇 instantapp，檢查是否成功運行 Instant Module
-![](https://i.imgur.com/wGnH01u.jpg)
+
+![](./picture/18.jpg)
 
 ### 製作 Multi-Feature Instant App
 
 - 右鍵 InstantApp，新增module
-![](https://i.imgur.com/DY21v2t.jpg)
+
+![](./picture/13.jpg)
 
 - 選擇 "Feature Module"
- ![](https://i.imgur.com/xsp867a.jpg)
+
+![](./picture/15.jpg)
  - Application/Library name 為 "second-feature"
  - 並修改 Packge name 為 "com.example.gigabyte.instantapp.second_feature" 
  (必須接上 app 的 applicationId 因此需在中間加入 instantapp)
-![](https://i.imgur.com/jq0Dyw9.jpg)
+
+![](./picture/16.jpg)
 
 - 修改 Instant App URL Route 與 Activity name
-![](https://i.imgur.com/qVEYPhf.jpg)
+
+![](./picture/17.jpg)
 - Finish
 
 - 建立完成後，Android Studio 已經在 second-feature/build.gradle 完成以下
@@ -210,14 +227,13 @@ dependencies {
 ```
 
 - 選擇 instantapp，檢查是否成功運行
-![](https://i.imgur.com/wGnH01u.jpg)
-- 如果有安裝 adb 則在 Command Line 輸入以下測試每個 feature
+
+![](./picture/18.jpg)
+- 如果有安裝 adb 則在 Command Line 輸入以下，測試每個 feature
 ```
 adb shell am start -a android.intent.action.VIEW -d "http://test/main"
 adb shell am start -a android.intent.action.VIEW -d "http://test/second"
 ``` 
 
 ## Contributors
-GGdogpaws
-
-
+Yang Huang
