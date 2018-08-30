@@ -121,6 +121,7 @@ e) Troubleshooting
 |Ansible|[Introduce](http://www.slideshare.net/williamyeh/ansible-top-down)|Link||
 |Docker|[Introduce](https://philipzheng.gitbooks.io/docker_practice/content/introduction/index.html)|Link||
 |Facebook Infer|[Introduce](http://fbinfer.com/)|Link||
+|Android on Raspberry Pi 3|[Introduce](https://developer.android.com/things/hardware/raspberrypi)|[Link](https://github.com/nutc-imac-team/android-team-skills-list/blob/master/androidForRaspberryPi3Download/main.md)|Che Jung|
 
 #### Android API
 |Skills|Description|Tutorial|State|
