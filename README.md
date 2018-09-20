@@ -74,7 +74,7 @@ e) Troubleshooting
 |Crashlytics|[Introduce](http://try.crashlytics.com/sdk-android/)|Link||
 |Googe App Stream|[Introduce](http://techcrunch.com/2015/11/18/google-search-now-surfaces-app-only-content-streams-apps-from-the-cloud-when-not-installed-on-your-phone/)|Link||
 |CRaSH|[Introduce](http://www.crashub.org/)|Link||
-|DeviceAdminReceiver|[Introduce](https://developer.android.com/reference/android/app/admin/DeviceAdminReceiver)|[Link](https://github.com/nutc-imac-team/android-team-skills-list/tree/master/DevicePolicyManager)|Anan|
+|DeviceAdminReceiver|[Introduce](https://developer.android.com/reference/android/app/admin/DeviceAdminReceiver)|[Link](https://github.com/nutc-imac-team/android-team-skills-list/tree/master/DeviceAdminReceiver)|Anan|
 
 
 #### AOSP
