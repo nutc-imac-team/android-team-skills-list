@@ -74,6 +74,8 @@ e) Troubleshooting
 |Crashlytics|[Introduce](http://try.crashlytics.com/sdk-android/)|Link||
 |Googe App Stream|[Introduce](http://techcrunch.com/2015/11/18/google-search-now-surfaces-app-only-content-streams-apps-from-the-cloud-when-not-installed-on-your-phone/)|Link||
 |CRaSH|[Introduce](http://www.crashub.org/)|Link||
+|DeviceAdminReceiver|[Introduce](https://developer.android.com/reference/android/app/admin/DeviceAdminReceiver)|[Link](https://github.com/nutc-imac-team/android-team-skills-list/tree/master/DevicePolicyManager)|Anan|
+
 
 #### AOSP
 |Skills|Description|Tutorial|State|
@@ -99,6 +101,8 @@ e) Troubleshooting
 |---|---|---|---|
 |Evoluspencil On Ubuntu|[Introduce](http://code.google.com/p/evoluspencil/)|Link|ChrisKe|
 |Instant Apps|[Introduce](https://developer.android.com/topic/instant-apps/index.html)|[Link](https://github.com/nutc-imac-team/android-team-skills-list/blob/master/InstantApp/main.md)|Yang Huang|
+|Support display cutouts|[Introduce](https://developer.android.com/guide/topics/display-cutout/)|[Link](https://github.com/nutc-imac-team/android-team-skills-list/tree/master/DisplayCutouts/main.md)|Ben|
+
 
 #### IDE
 |Skills|Description|Tutorial|State|
@@ -121,7 +125,7 @@ e) Troubleshooting
 |Ansible|[Introduce](http://www.slideshare.net/williamyeh/ansible-top-down)|Link||
 |Docker|[Introduce](https://philipzheng.gitbooks.io/docker_practice/content/introduction/index.html)|Link||
 |Facebook Infer|[Introduce](http://fbinfer.com/)|Link||
-|Android on Raspberry Pi 3|[Introduce](https://developer.android.com/things/hardware/raspberrypi)|[Link](https://github.com/nutc-imac-team/android-team-skills-list/blob/master/androidForRaspberryPi3Download/main.md)|Che Jung|
+|Android on Raspberry Pi 3|[Introduce](https://developer.android.com/things/hardware/raspberrypi)|[Link](https://github.com/nutc-imac-team/android-team-skills-list/blob/master/RaspberryPi3/main.md)|Che Jung|
 
 #### Android API
 |Skills|Description|Tutorial|State|
