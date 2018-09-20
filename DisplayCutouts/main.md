@@ -1,4 +1,4 @@
-# Android9Demo
+# Display Cutout
 
 ## Development Environment
 
