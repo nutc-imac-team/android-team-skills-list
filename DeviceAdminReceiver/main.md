@@ -1,4 +1,4 @@
-# Android 9 for enterprise apps practice
+# DeviceAdminReceiver
 
 
 **Development Environment**
@@ -14,24 +14,24 @@
 
 **Built Environment**
 
-+ ³]¸mDeviceAdmin
++ è¨­ç½®DeviceAdmin
 
     
-­º¥ı»İ­n¦bÀ³¥Î¤¤³]¸mDeviceAdmin¥H«K¤§«á¨ú±oComponentName¡C
+é¦–å…ˆéœ€è¦åœ¨æ‡‰ç”¨ä¸­è¨­ç½®DeviceAdminä»¥ä¾¿ä¹‹å¾Œå–å¾—ComponentNameã€‚
 
 
-1. ·s¼W¤@­Óclass¨ÓÄ~©ÓDeviceAdminReceiverclass
+1. æ–°å¢ä¸€å€‹classä¾†ç¹¼æ‰¿DeviceAdminReceiverclass
     
     
-ª½±µ«Ø¥ß¦bpackage¤U
+ç›´æ¥å»ºç«‹åœ¨packageä¸‹
 ![](./picture/p1.png)
 ```
 public class MyAdmin extends DeviceAdminReceiver{}
 ```
-2. ¦bmanifest¤¤µù¥UDeviceAdminReceiver
+2. åœ¨manifestä¸­è¨»å†ŠDeviceAdminReceiver
 
     
-¦bmanifest¤¤ªº<application></application>¤§¶¡¥[¤J¤º®e¡G
+åœ¨manifestä¸­çš„<application></application>ä¹‹é–“åŠ å…¥å…§å®¹ï¼š
 
 ```
 
@@ -50,14 +50,14 @@ public class MyAdmin extends DeviceAdminReceiver{}
 
 ```
 
-<receiver>¤Uªºname¬°¦Û¤vªº package¦W + Ä~©ÓDeviceAdminReceiverªºÃş§O¦W¡C
+<receiver>ä¸‹çš„nameç‚ºè‡ªå·±çš„ packageå + ç¹¼æ‰¿DeviceAdminReceiverçš„é¡åˆ¥åã€‚
 
-alt+enter¦blabel¤U·s¼Wstring¸ê·½¡C
+alt+enteråœ¨labelä¸‹æ–°å¢stringè³‡æºã€‚
 
-¦b@string«ö¤Ushift+¥ªÁä·s¼Wdescription¸ê·½¡C
+åœ¨@stringæŒ‰ä¸‹shift+å·¦éµæ–°å¢descriptionè³‡æºã€‚
 
 
-¦bmeta-data¤Uªºresource·s¼WxmlÀÉXML¤º®e¡G
+åœ¨meta-dataä¸‹çš„resourceæ–°å¢xmlæª”XMLå…§å®¹ï¼š
 
 ```
 
@@ -73,20 +73,20 @@ alt+enter¦blabel¤U·s¼Wstring¸ê·½¡C
 
 ```
 
-¸Ô²ÓªºÅv­­¤º®e¥i¥H¦bandroid¤å¥ó¤¤¬d¾\¡A±µ¤U¨Ó«K¯à°÷¶}©l¬°À³¥Î³]¸mDeviceOwner¡C
+è©³ç´°çš„æ¬Šé™å…§å®¹å¯ä»¥åœ¨androidæ–‡ä»¶ä¸­æŸ¥é–±ï¼Œæ¥ä¸‹ä¾†ä¾¿èƒ½å¤ é–‹å§‹ç‚ºæ‡‰ç”¨è¨­ç½®DeviceOwnerã€‚
 
 
-* ³]¸mDeviceOwner
+* è¨­ç½®DeviceOwner
 
     
-¤@¡B¶i¤Jadb«ü¥O¦C¼Ò¦¡
+ä¸€ã€é€²å…¥adbæŒ‡ä»¤åˆ—æ¨¡å¼
     
     
-­º¥ı­n¥ı§ä¨ì¦Û¤vªºplatform-tools¸ê®Æ§¨¡A¸Ì­±·|ªş¦³adb.exeÀÉ
-¥i¥H¦bandroid studioªº Tools -> Android -> SDK Manager ¤¤ªº Android SDK Location¬d¸ß¨ìSDK¸ô®|¡A¦bSDK¤U¥i¥H§ä¨ìplatform-tools¸ê®Æ§¨
-¦pªG¨S¦³¥i¯à¬O©|¥¼¦w¸Ëplatform-tools¡C
+é¦–å…ˆè¦å…ˆæ‰¾åˆ°è‡ªå·±çš„platform-toolsè³‡æ–™å¤¾ï¼Œè£¡é¢æœƒé™„æœ‰adb.exeæª”
+å¯ä»¥åœ¨android studioçš„ Tools -> Android -> SDK Manager ä¸­çš„ Android SDK LocationæŸ¥è©¢åˆ°SDKè·¯å¾‘ï¼Œåœ¨SDKä¸‹å¯ä»¥æ‰¾åˆ°platform-toolsè³‡æ–™å¤¾
+å¦‚æœæ²’æœ‰å¯èƒ½æ˜¯å°šæœªå®‰è£platform-toolsã€‚
 ![](./picture/p3.png)
-±µ¤U¨Ó¶}±Òcmd¨Ï¥Îcd«ü¥O¶i¤J¨ìplatform-tools¸ê®Æ§¨¦ì¸m¡A©è¹F¦ì¸m«á«K¯à°÷³z¹Lcmd¶i¤J Android ¨t²Î«ü¥O¦C¼Ò¦¡¥i¥H¥ı³z¹L¥H¤U«ü¥O·j´M¤w³s±µªº¸Ë¸m¡G
+æ¥ä¸‹ä¾†é–‹å•Ÿcmdä½¿ç”¨cdæŒ‡ä»¤é€²å…¥åˆ°platform-toolsè³‡æ–™å¤¾ä½ç½®ï¼ŒæŠµé”ä½ç½®å¾Œä¾¿èƒ½å¤ é€écmdé€²å…¥ Android ç³»çµ±æŒ‡ä»¤åˆ—æ¨¡å¼å¯ä»¥å…ˆé€éä»¥ä¸‹æŒ‡ä»¤æœå°‹å·²é€£æ¥çš„è£ç½®ï¼š
     
 ```
     
@@ -94,7 +94,7 @@ adb devices
     
 ```
     
-Åã¥Ü³s±µªº¤â¾÷³]³Æ¹q¸£¥u¦³³s±µ¤@¥x¸Ë¸mªº±¡ªp¥i¥Hª½±µ¿é¤J«ü¥O¡G
+é¡¯ç¤ºé€£æ¥çš„æ‰‹æ©Ÿè¨­å‚™é›»è…¦åªæœ‰é€£æ¥ä¸€å°è£ç½®çš„æƒ…æ³å¯ä»¥ç›´æ¥è¼¸å…¥æŒ‡ä»¤ï¼š
 
     
 ```
@@ -103,24 +103,24 @@ adb shell
     
 ```
     
-³s±µ¼ÒÀÀ¾¹»P¤@¯ë¸Ë¸m¥i¥H¿é¤J«ü¥O¡G
+é€£æ¥æ¨¡æ“¬å™¨èˆ‡ä¸€èˆ¬è£ç½®å¯ä»¥è¼¸å…¥æŒ‡ä»¤ï¼š
     
 ```
     
-adb -d shell    //³s±µ¤@¯ë¸Ë¸m
+adb -d shell    //é€£æ¥ä¸€èˆ¬è£ç½®
     
 ```
     
 ```
     
-adb -e shell    //³s±µ¼ÒÀÀ¾¹
+adb -e shell    //é€£æ¥æ¨¡æ“¬å™¨
     
 ```
     
-¿é¤J¦¨¥\·|¥X²{$¦r¸¹«K¯à¶}©l¬°À³¥Îµ{¦¡³]¸mDeviceOwner¡C
+è¼¸å…¥æˆåŠŸæœƒå‡ºç¾$å­—è™Ÿä¾¿èƒ½é–‹å§‹ç‚ºæ‡‰ç”¨ç¨‹å¼è¨­ç½®DeviceOwnerã€‚
     
     
-³]¸m«ü¥O¡G
+è¨­ç½®æŒ‡ä»¤ï¼š
     
 ```
     
@@ -128,9 +128,9 @@ dpm set-device-owner com.example.user.t0828/.MyAdmin
    
 ```
     
-com.example.user.t0828­n§ï¬°appªºpackage¦WºÙ.MyAdmin«h§ï¬°app¤¤ extends DeviceAdminReceiver ªº class¡C³]©w§¹¦¨«á«K¯à°÷¶}©l°õ¦ædpm«ü¥O¡C
+com.example.user.t0828è¦æ”¹ç‚ºappçš„packageåç¨±.MyAdminå‰‡æ”¹ç‚ºappä¸­ extends DeviceAdminReceiver çš„ classã€‚è¨­å®šå®Œæˆå¾Œä¾¿èƒ½å¤ é–‹å§‹åŸ·è¡ŒdpmæŒ‡ä»¤ã€‚
     
-¦pªG­nÂ÷¶}shell¥i¥Hª½±µ¿é¤J```exit```
+å¦‚æœè¦é›¢é–‹shellå¯ä»¥ç›´æ¥è¼¸å…¥```exit```
     
 
 **The Simplest Sample**
